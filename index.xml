@@ -9,6 +9,17 @@
     <copyright>Copyright © 2008–2019, Steve Francia and the lee.so; all rights reserved.</copyright>
     <lastBuildDate>Fri, 12 Nov 2021 14:43:01 +0800</lastBuildDate><atom:link href="https://canrvi.github.io/index.xml" rel="self" type="application/rss+xml" />
     <item>
+      <title>视觉规范</title>
+      <link>https://canrvi.github.io/post/design/design/</link>
+      <pubDate>Fri, 12 Nov 2021 14:43:01 +0800</pubDate>
+      
+      <guid>https://canrvi.github.io/post/design/design/</guid>
+      <description>颜色 Color 统一的色彩搭配可以提高品牌的识别度，色彩的运用除了需要考虑品牌的统一性之外，还需要达到信息传递，交互反馈等目的。因此，我们基于 HSL 色彩空间定义了基本的颜色系统，这些颜色可涵盖绝大部分的常规页面需求，如有特殊产品需要，可以适当扩展配色，新增配色需根据主色的颜色饱和度、亮度、对比度进行调色并保持一致，同时颜色需符合 WCAG 2.1 对比度要求，让用户在使用产品时，更易于查找、识别和交互。
+ 字体 Typography 营销云小程序内使用的字体与所运行的系统字体保持一致，常用字号及使用场景具体如下。字体大小为一倍图的尺寸；字号大小限定在10-24px内；单行字号字高计算公式：字号=n，字高=n+4；段落文本字高计算公式：字号=n，字高=n+8。
+ 图标 Icon </description>
+    </item>
+    
+    <item>
       <title>设计原则</title>
       <link>https://canrvi.github.io/post/principle/principle/</link>
       <pubDate>Fri, 12 Nov 2021 14:43:01 +0800</pubDate>
@@ -27,17 +38,6 @@
       
       <guid>https://canrvi.github.io/menu/about/</guid>
       <description>Lorem ipsum dolor sit amet, et essent mediocritatem quo, choro volumus oporteat an mei. Ipsum dolor sit amet, et essent mediocritatem quo.</description>
-    </item>
-    
-    <item>
-      <title>视觉规范</title>
-      <link>https://canrvi.github.io/post/design/design/</link>
-      <pubDate>Fri, 12 Nov 2021 14:43:01 +0800</pubDate>
-      
-      <guid>https://canrvi.github.io/post/design/design/</guid>
-      <description>统一的色彩搭配可以提高品牌的识别度，色彩的运用除了需要考虑品牌的统一性之外，还需要达到信息传递，交互反馈等目的。因此，我们基于 HSL 色彩空间定义了基本的颜色系统，这些颜色可涵盖绝大部分的常规页面需求，如有特殊产品需要，可以适当扩展配色，新增配色需根据主色的颜色饱和度、亮度、对比度进行调色并保持一致，同时颜色需符合 WCAG 2.1 对比度要求，让用户在使用产品时，更易于查找、识别和交互。
- 字体 Typography 营销云小程序内使用的字体与所运行的系统字体保持一致，常用字号及使用场景具体如下。字体大小为一倍图的尺寸；字号大小限定在10-24px内；单行字号字高计算公式：字号=n，字高=n+4；段落文本字高计算公式：字号=n，字高=n+8。
- 图标 Icon </description>
     </item>
     
   </channel>

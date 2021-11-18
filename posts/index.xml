@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Charlie</title>
-    <link>https://canrvi.github.io/</link>
-    <description>Recent content on Charlie</description>
+    <title>Posts on Charlie</title>
+    <link>https://canrvi.github.io/posts/</link>
+    <description>Recent content in Posts on Charlie</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
     <copyright>Copyright © 2008–2019, Steve Francia and the lee.so; all rights reserved.</copyright>
-    <lastBuildDate>Fri, 12 Nov 2021 14:43:01 +0800</lastBuildDate><atom:link href="https://canrvi.github.io/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Fri, 12 Nov 2021 14:43:01 +0800</lastBuildDate><atom:link href="https://canrvi.github.io/posts/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>设计原则</title>
       <link>https://canrvi.github.io/posts/principle/principle/</link>
@@ -18,15 +18,6 @@
 简单高效 简化和优化工作流程。智能地预测需求，帮助人们更好、更聪明、更快地工作。
 保持一致 通过将相同的解决方案应用于相同的问题，让用户快速理解进而作出决策。
 有效反馈 用户可以清晰的感知自己的操作，消除歧义。能够自信地看待、理解和行动。</description>
-    </item>
-    
-    <item>
-      <title>About</title>
-      <link>https://canrvi.github.io/about/about/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://canrvi.github.io/about/about/</guid>
-      <description>Lorem ipsum dolor sit amet, et essent mediocritatem quo, choro volumus oporteat an mei. Ipsum dolor sit amet, et essent mediocritatem quo.</description>
     </item>
     
     <item>

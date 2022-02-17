@@ -34,5 +34,24 @@
 设计语言 设计语言会伴随着设计过程而逐渐成型。我们并不总是能够精准地把握一门设计语言的定义与规则；从你有意识地对设计语言进行定义的时候起，它就开始成为某种可以执行与复用的标准，你也会逐渐习惯于体系化的设计思维模式。当你们需要界面当中的某个元素更加突出时，无需花费时间讨论争执，直接参考模式库便好。经过明确定义的设计语言还会有助于你更加体系化地控制整个产品的设计方案。</description>
     </item>
     
+    <item>
+      <title>A Product Designer’s checklist 😰 ✅</title>
+      <link>https://canrvi.github.io/post/produc-checklist/</link>
+      <pubDate>Fri, 12 Nov 2021 14:43:01 +0800</pubDate>
+      
+      <guid>https://canrvi.github.io/post/produc-checklist/</guid>
+      <description>If you’ve ever listened to any of the ZeroToDesign podcasts, you would have heard me drone on about the fact that there are so many different responsibilities for an end-to-end Product Designer (aka Jack of all trades), from Product Strategy and Problem Discovery, right through to Developer collaboration and product testing.
+ 💡 Contributing to such a variety of tasks makes it easy to forget some of your design process along the way</description>
+    </item>
+    
+    <item>
+      <title>Design systems are flawed</title>
+      <link>https://canrvi.github.io/post/design-systems-are-flawed/</link>
+      <pubDate>Fri, 12 Nov 2021 14:43:01 +0800</pubDate>
+      
+      <guid>https://canrvi.github.io/post/design-systems-are-flawed/</guid>
+      <description>Design systems are flawed 3 actions to get the most out of design systems Back in the spring of 2021, the CCP (Clube Criativos Portugal) invited me to talk about design systems. At the time I wasn’t focused on design systems, but I decided to accept the invitation anyway. I thought that I could still speak to my own experience, as someone designing a new product and referencing one of the most well-known design systems around: Shopify Polaris.</description>
+    </item>
+    
   </channel>
 </rss>

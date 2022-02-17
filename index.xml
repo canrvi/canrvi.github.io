@@ -35,22 +35,46 @@
     </item>
     
     <item>
-      <title>About</title>
+      <title>User  Interface  Designer</title>
       <link>https://canrvi.github.io/about/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://canrvi.github.io/about/</guid>
-      <description>Welcome to WeTransfer Founded in 2009 as the simplest way to send big files around the world, WeTransfer has since grown into an ecosystem of creative productivity tools. The company’s suite of tools is specifically designed for creative professionals, enabling collaboration, co-creation and client management across their workflow process.
-As a certified B Corporation™, WeTransfer has long been a champion of using business as a force for good. The company famously donates 30% of its advertising real estate to raise awareness for artists and creative work.</description>
+      <description>拥有6年的B端、C端产品体验设计经验，主导并参与过设计规范系统、房地产营销SaaS平台、社交类小程序、APP等产品的用户体验设计。两年多的设计管理工作，在团队人员管理、项目管理、设计规划、以及把控设计质量等方面有了一定的经验积累。热衷于产品视觉设计，且拥有较好的业务理解能力，擅于全局性的看待和处理问题。注重设计细节，具备扎实的技能基础，自我驱动力强。
+ 地产营销Saas服务公司 产品部/UI设计师 &amp;amp; 设计组长
+   一家为地产商提供数字化服务的公司，担任UI设计师兼设计组长，主要负责B端平台系统，小程序等相关产品线的视觉和交互设计，把控整体设计质量以及规划设计目标，对平台交互视觉一致性负责；
+  统筹各业务线的设计需求沟通以及任务分配，带领并指导设计小组完成设计执行，严格把控审核设计产出，确保产品设计的易用性和用户体验；
+  主导推动团队进行专业化建设，包括建立系统性的设计规范及组件库、团队协作流程建设，知识管理等，带领团队共同提升专业设计能力；
+    广州老虎科技信息有限公司产品部/UI设计师
+  公司主要营运为年轻职场人提供服务的多端平台系统，在职时独立负责多个新产品UI设计，包括社交名片小程序、职场招聘小程序、以及主要产品官网、后台系统等，并参与现有产品优化迭代更新； 参与日常设计小组需求分析讨论，并为产品设计制定设计风格，建立设计规范文档，以及输出视觉设计方案； 参与产品运营设计，包括线上、线下运营活动等视觉设计；  </description>
     </item>
     
     <item>
-      <title>UX Design</title>
-      <link>https://canrvi.github.io/ux-design/</link>
+      <title>Contact</title>
+      <link>https://canrvi.github.io/contact/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://canrvi.github.io/ux-design/</guid>
-      <description>Lorem ipsum dolor sit amet, et essent mediocritatem quo, choro volumus oporteat an mei. Ipsum dolor sit amet, et essent mediocritatem quo.</description>
+      <guid>https://canrvi.github.io/contact/</guid>
+      <description>canrvilee@gmail.com</description>
+    </item>
+    
+    <item>
+      <title>A Product Designer’s checklist 😰 ✅</title>
+      <link>https://canrvi.github.io/post/produc-checklist/</link>
+      <pubDate>Fri, 12 Nov 2021 14:43:01 +0800</pubDate>
+      
+      <guid>https://canrvi.github.io/post/produc-checklist/</guid>
+      <description>If you’ve ever listened to any of the ZeroToDesign podcasts, you would have heard me drone on about the fact that there are so many different responsibilities for an end-to-end Product Designer (aka Jack of all trades), from Product Strategy and Problem Discovery, right through to Developer collaboration and product testing.
+ 💡 Contributing to such a variety of tasks makes it easy to forget some of your design process along the way</description>
+    </item>
+    
+    <item>
+      <title>Design systems are flawed</title>
+      <link>https://canrvi.github.io/post/design-systems-are-flawed/</link>
+      <pubDate>Fri, 12 Nov 2021 14:43:01 +0800</pubDate>
+      
+      <guid>https://canrvi.github.io/post/design-systems-are-flawed/</guid>
+      <description>Design systems are flawed 3 actions to get the most out of design systems Back in the spring of 2021, the CCP (Clube Criativos Portugal) invited me to talk about design systems. At the time I wasn’t focused on design systems, but I decided to accept the invitation anyway. I thought that I could still speak to my own experience, as someone designing a new product and referencing one of the most well-known design systems around: Shopify Polaris.</description>
     </item>
     
   </channel>

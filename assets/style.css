@@ -60,7 +60,7 @@ font-weight:800;src:url(fonts/Inter-BoldItalic.woff2) format("woff2")}
     border-radius:8px;
     cursor:pointer;
     display:flex;
-    font-family: Gilroy;
+    font-family: "Gilroy";
     font-weight:500;
     justify-content:center;
     margin-bottom:5px;
@@ -109,7 +109,7 @@ font-weight:800;src:url(fonts/Inter-BoldItalic.woff2) format("woff2")}
     background:none;
     box-shadow:none;
     display:inline-flex;
-    font-family: Gilroy;
+    font-family: "Gilroy";
     font-weight:700;
     margin:20px 0;
     padding:0;
@@ -203,13 +203,13 @@ font-weight:800;src:url(fonts/Inter-BoldItalic.woff2) format("woff2")}
 .logo__mark .greater-icon path{
     stroke:currentColor;
     stroke-width:8px;
-    
     color: var(--background-secondary);
 }
 .logo__text
 {
 font-size:28px;
 color: var(--background-secondary);
+font-family: Gilroy;
 
 }
 .logo__cursor
@@ -368,7 +368,8 @@ h5{
 @media (max-width:683px)
 {
 h1{
-    font-size:24px;
+    font-size:40px;
+    font-family:Gilroy;
 }
 h2{
     font-size:20px;
@@ -548,17 +549,22 @@ color: #999A9A;
 @media (max-width:683px)
 {
 .post-title{
-    font-size:40px;
+    font-size:32px;
+    font-family:Gilroy;
 }
 
+.post-title a{
+    font-size:24px;
+    font-family:Gilroy;
+}
 }
 .post-title a
 {
     color: var(--background-secondary);
     text-decoration:none;
-    font-size: 40px;
+    font-size: 32px;
     font-weight: 700;
-    font-family:Inter,-apple-system,BlinkMacSystemFont,Roboto,Segoe UI,Helvetica,Arial,sans-serif,Gilroy;
+    font-family:Gilroy;
 }
 
 .post-title :hover{
@@ -700,13 +706,13 @@ flex-grow:0;
 margin:auto; 
 max-width:100%;
 width:860px;
-font-family: Gilroy;
+font-family: "Gilroy";
 font-weight: 500;
 }
 .footer a{
     text-decoration: none;
     color:#a9a9b3;
-    font-family: Gilroy;
+    font-family: "Gilroy";
 }
 .footer a:hover{
     text-decoration: none;
@@ -723,14 +729,14 @@ font-weight: 500;
     padding:20px; 
     width:860px;
     color:#a9a9b3;
-    font-family: Gilroy;
+    font-family: "Gilroy";
 
 }
 @media (max-width:1439px)
 {
 .footer__inner{
 font-size:16px;
-font-family: Gilroy;
+font-family: "Gilroy";
 padding:20px;
 margin:auto;
 flex-direction:column;
@@ -739,11 +745,11 @@ color:#a9a9b3;
 
 .footer a{
     color:#a9a9b3;
-    font-family: Gilroy;
+    font-family: "Gilroy";
 }
 .footer{
     color:#a9a9b3;
-    font-family: Gilroy;
+    font-family: "Gilroy";
 
        }
 .copyright{
@@ -758,7 +764,7 @@ color:#a9a9b3;
     margin:auto;
     text-align:center;
     color:#a9a9b3;
-    font-family: Gilroy;
+    font-family: "Gilroy";
 }
 
 .footer.copyright>:first-child:not(:only-child){
@@ -766,7 +772,7 @@ color:#a9a9b3;
     margin-right:10px;
     padding-right:10px;
     color:#a9a9b3;
-    font-family: Gilroy;
+    font-family: "Gilroy";
 }
 }
 @media (max-width:899px)
@@ -792,7 +798,7 @@ color:#a9a9b3;
     margin:0;
     padding:0;
     color:#a9a9b3;
-    font-family: Gilroy;
+    font-family: "Gilroy";
 }
 .footer.copyright
 {
@@ -800,7 +806,7 @@ color:#a9a9b3;
     flex-direction:column;
     margin-top:10px;
     color:#a9a9b3;
-    font-family: Gilroy;
+    font-family: "Gilroy";
 }
 }
 .terms{margin:0 auto;max-width:800px;padding:20px;text-align:left;width:100%;

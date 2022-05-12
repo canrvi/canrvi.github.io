@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Posts on Charlie</title>
+    
+    
+    
+    <link>https://canrvi.github.io/posts/</link>
+    <description>Recent content in Posts on Charlie</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Sun, 01 May 2022 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="https://canrvi.github.io/posts/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>💎 Design Systems</title>
+      <link>https://canrvi.github.io/posts/design-systems/</link>
+      <pubDate>Sun, 01 May 2022 00:00:00 +0000</pubDate>
+      
+      <guid>https://canrvi.github.io/posts/design-systems/</guid>
+      <description>
+        
+          &lt;img src=&#34;https://canrvi.github.io/img/design%20system.jpg&#34;/&gt;
+          
+        
+        
+        
+          “设计体系”是指服务于数字化产品设计的一系列具有内在关联性的、组织有序的设计模式与实践方法。其中，“模式”指代任何可复用的界面组成要素，包括按钮、文本框、图标、配色、字体，以及可复用的功能流程与交互行为等等；“实践”则是关于如何在设计团队当中创建、提炼、使用和共享这些模式。——《Design Systems》
+          
+        
+        </description>
+    </item>
+    
+    <item>
+      <title>🌟Lighthouse</title>
+      <link>https://canrvi.github.io/posts/lighthouse/</link>
+      <pubDate>Mon, 01 Oct 2018 00:00:00 +0000</pubDate>
+      
+      <guid>https://canrvi.github.io/posts/lighthouse/</guid>
+      <description>
+        
+          &lt;img src=&#34;https://canrvi.github.io/img/lighthouse1.jpg&#34;/&gt;
+          
+        
+        
+        
+          一款关于职场的学习培训软件，平台拥有众多自身的职场导师，精选课程在线学习，全面的培养用户技能轻松就业，专家一对一服务解决用户各种职场疑问。
+          
+        
+        </description>
+    </item>
+    
+    <item>
+      <title>🔮Lieduoduo</title>
+      <link>https://canrvi.github.io/posts/lieduoduo/</link>
+      <pubDate>Sat, 01 Sep 2018 00:00:00 +0000</pubDate>
+      
+      <guid>https://canrvi.github.io/posts/lieduoduo/</guid>
+      <description>
+        
+          &lt;img src=&#34;https://canrvi.github.io/img/lieduoduo.jpg&#34;/&gt;
+          
+        
+        
+        
+          该产品致力于成就每一个互联网中高端人才的职业梦想，通过连接专业猎头顾问和求职者，让每一个求职者都拥有自己的专属猎头顾问。
+          
+        
+        </description>
+    </item>
+    
+    <item>
+      <title>🔫 PickMe</title>
+      <link>https://canrvi.github.io/posts/pickeme/</link>
+      <pubDate>Mon, 21 May 2018 00:00:00 +0000</pubDate>
+      
+      <guid>https://canrvi.github.io/posts/pickeme/</guid>
+      <description>
+        
+          &lt;img src=&#34;https://canrvi.github.io/img/pickme1.png&#34;/&gt;
+          
+        
+        
+        
+          &#34;Hello, friend?&#34; That&#39;s lame. Maybe I should give you a name?
+          
+        
+        </description>
+    </item>
+    
+  </channel>
+</rss>

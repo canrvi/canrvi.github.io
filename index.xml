@@ -2,83 +2,164 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Charlie</title>
+    
+    
+    
     <link>https://canrvi.github.io/</link>
     <description>Recent content on Charlie</description>
     <generator>Hugo -- gohugo.io</generator>
-    <language>en</language>
-    <copyright>Copyright © 2021-2022.</copyright>
-    <lastBuildDate>Sun, 06 Mar 2022 21:26:37 +0800</lastBuildDate><atom:link href="https://canrvi.github.io/index.xml" rel="self" type="application/rss+xml" />
-    <item>
-      <title>💎 Densign System</title>
-      <link>https://canrvi.github.io/projects/densign-system/</link>
-      <pubDate>Tue, 08 Feb 2022 14:43:01 +0800</pubDate>
-      
-      <guid>https://canrvi.github.io/projects/densign-system/</guid>
-      <description>“设计体系”是指服务于数字化产品设计的一系列具有内在关联性的、组织有序的设计模式与实践方法。其中，“模式”指代任何可复用的界面组成要素，包括按钮、文本框、图标、配色、字体，以及可复用的功能流程与交互行为等等；“实践”则是关于如何在设计团队当中创建、提炼、使用和共享这些模式。——《Design Systems》
-设计背景 “设计体系”是指服务于数字化产品设计的一系列具有内在关联性的、组织有序的设计模式与实践方法。近些年，国内外许多产品设计团队早已在内部完成了设计系统的建立，也有了不少经验和沉淀。低代码、开源协同的浪潮兴起，设计体系再次被推到风口浪尖。由此我们也意识到，也需要有一套符合自身业务需要的的设计体系，来帮助我们正确、有效、且高效地协同运作。
-存在问题   团队缺乏完整的设计规范指导，产品经理与设计师对体验设计理解存在一定的偏差，造成设计不合理、体验不一致等问题，给用户带来较高的学习成本。
-  随着公司业务快速增长，产品设计的复杂性不断增加，业务模块的激增，不仅产生了大量的冗余功能代码和设计资源，带来的还有重复性的设计工作。
-  设计师与开发缺少共同协作的流程机制，随着产品的快速迭代和团队成员的变动，团队内部的协作效率低效，当有新的业务需求时，无法实现快速落地。
-  设计目标 提升设计产研协作效率，提升产品设计一致性，提升设计价值以及团队设计影响力。如何解决 1.建立设计协作 我在团队内部初拟了一份《产品设计协作规范》，用于工作流程上的约束。设计文档的有效管理，能够在多人协作的团队中能够起到很大的提效作用。从设计文档的命名方式，到文档结构，再到最终的设计交付流程，都纳入了协作规则。目的是让大家形成良好的规范意识，不仅要在设计团队内部形成共识，也需要同步到产品、研发、测试等跨部门协作团队，减少信息不对称所造成的沟通阻碍。
-2.定义设计语言 &amp;ldquo;&amp;hellip;一个群体，像是共享着同一个头脑，通过遵从相同的模式化语言来协同作业，最终使那些宏伟的建筑拔地而起。&amp;rdquo; 这是《建筑的永恒之道》作者Christopher Alexander 在书中所提到的：&amp;ldquo;关于如何基于’模式化语言‘来创造令人愉悦、适宜居住的建筑环境。&amp;rdquo;
-在数字化产品设计中也同样如此，从页面到模块都是以不同颗粒度的元素进行拼凑组合而来，为了保证产品设计的整体性和一致性，需要有一套大家都能达成共识并且理解的工作语言，这也是设计体系中必要的组成部分。我们通过“原子设计“的概念，先后从移动端以及管理后台开始，与产品团队基于业务场景进行多次分析和讨论，经过不断的打磨和设计迭代，完成了一套拥有550+组件、90+样式，以及覆盖页面达 30+ 的设计组件库。同时，协同研发同学，完成小程序组件库的代码开发。
-依据业务上的特性，产品需要为众多开发商提供搭建页面的服务，为满足开发商不同的品牌需求，我们通过过往经验的积累，提取出了8个颜色作为主色调，并基于HSB色彩模型延展出48个衍生色作为我们的基础色板。
-未完待续&amp;hellip;</description>
-    </item>
+    <language>en-us</language>
+    <lastBuildDate>Sun, 01 May 2022 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="https://canrvi.github.io/index.xml" rel="self" type="application/rss+xml" />
+    
     
     <item>
-      <title>Contact</title>
-      <link>https://canrvi.github.io/contact/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <title>💎 Design Systems</title>
+      <link>https://canrvi.github.io/posts/design-systems/</link>
+      <pubDate>Sun, 01 May 2022 00:00:00 +0000</pubDate>
       
-      <guid>https://canrvi.github.io/contact/</guid>
-      <description>canrvilee@gmail.com</description>
-    </item>
-    
-    <item>
-      <title>🔫 PickMe MiniProgram</title>
-      <link>https://canrvi.github.io/projects/pickme/</link>
-      <pubDate>Wed, 02 Mar 2022 00:06:14 +0800</pubDate>
-      
-      <guid>https://canrvi.github.io/projects/pickme/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>👋🏻 你好，我是 Charlie</title>
-      <link>https://canrvi.github.io/about/</link>
-      <pubDate>Tue, 22 Feb 2022 00:00:00 +0000</pubDate>
-      
-      <guid>https://canrvi.github.io/about/</guid>
-      <description>一名用户体验设计师，计算机学科背景，拥有6年的toB、toC产品体验设计经验。
-主导并参与过设计规范系统、SaaS平台、小程序、APP等综合型项目设计。两年多的设计管理工作，在团队人员管理、项目管理、设计规划、以及把控设计质量等方面有了一定的经验积累。热衷于产品视觉设计与新兴技术的探索，擅于全局性的看待和处理问题。
- ✤ 地产营销服务产品 2019-2022 高级UI设计师  一家为地产商提供数字化服务的科技公司，目前担任研发部门UI设计师兼小组设计负责人，主要负责B端平台系统，小程序等相关产品线的视觉和交互设计，把控整体设计质量以及规划设计目标，并对平台交互视觉一致性负责； 日常统筹各业务线的设计需求沟通以及任务分配，带领并指导小组成员完成设计任务，严格把控审核设计产出； 推动团队进行专业化建设，建立系统性的设计规范及组件库、团队协作流程建设，知识管理等；  ✤ 招聘社区产品 2018-2019 UI设计师   公司主要营运为年轻职场人提供服务的多端平台系统，在职担任UI设计师，独立负责多个新产品UI设计，包括社交名片小程序、职场招聘小程序、以及主要产品官网、后台系统等，并参与现有产品优化迭代更新；
-  参与日常设计小组需求分析讨论，并为产品设计制定设计风格，建立设计规范文档，以及输出视觉设计方案；
-  参与产品运营设计，包括线上、线下运营活动等视觉设计；
-  ✤ 健身工具产品 2016-2017 视觉设计师   团队专注于打造一款专业运动健身记录的工具类产品，任职视觉设计师岗位，主要参与移动端产品、官网及其他视觉设计。
-  负责公司营运的线下健身竞技比赛活动，负责现场主视觉及相关宣传物料视觉设计。
-​
-  我正在寻找新的工作机会，随时欢迎您与我联系，点击这里可以查看我的详细履历。</description>
-    </item>
-    
-    <item>
-      <title>⚖️ Design Principle</title>
-      <link>https://canrvi.github.io/projects/principle/</link>
-      <pubDate>Fri, 12 Nov 2021 14:43:01 +0800</pubDate>
-      
-      <guid>https://canrvi.github.io/projects/principle/</guid>
-      <description>设计模式 我们通过特定的设计模式来提供状态反馈，向用户呈现任务步骤，为他们提供操作选项，或是帮助他们与彼此互动；我们通过特定的设计模式来营造具有吸引力与鼓励性的氛围，使任务更易于完成，给用户带来成就感与控制感。
-设计模式包括功能性模式与感知性模式。前者体现为有形的界面组件，包括按钮、页头、表单控件、菜单等等；后者表现在那些能够表达产品气质的描述性视觉元素当中，包括配色、字体、图标、图形与动效等等。
-设计语言 设计语言会伴随着设计过程而逐渐成型。我们并不总是能够精准地把握一门设计语言的定义与规则；从你有意识地对设计语言进行定义的时候起，它就开始成为某种可以执行与复用的标准，你也会逐渐习惯于体系化的设计思维模式。当你们需要界面当中的某个元素更加突出时，无需花费时间讨论争执，直接参考模式库便好。经过明确定义的设计语言还会有助于你更加体系化地控制整个产品的设计方案。</description>
+      <guid>https://canrvi.github.io/posts/design-systems/</guid>
+      <description>
+        
+          &lt;img src=&#34;https://canrvi.github.io/img/design%20system.jpg&#34;/&gt;
+          
+        
+        
+        
+          “设计体系”是指服务于数字化产品设计的一系列具有内在关联性的、组织有序的设计模式与实践方法。其中，“模式”指代任何可复用的界面组成要素，包括按钮、文本框、图标、配色、字体，以及可复用的功能流程与交互行为等等；“实践”则是关于如何在设计团队当中创建、提炼、使用和共享这些模式。——《Design Systems》
+          
+        
+        </description>
     </item>
     
     <item>
       <title>🌟Lighthouse</title>
-      <link>https://canrvi.github.io/projects/lighthouse/</link>
-      <pubDate>Sun, 06 Mar 2022 21:26:37 +0800</pubDate>
+      <link>https://canrvi.github.io/posts/lighthouse/</link>
+      <pubDate>Mon, 01 Oct 2018 00:00:00 +0000</pubDate>
       
-      <guid>https://canrvi.github.io/projects/lighthouse/</guid>
-      <description></description>
+      <guid>https://canrvi.github.io/posts/lighthouse/</guid>
+      <description>
+        
+          &lt;img src=&#34;https://canrvi.github.io/img/lighthouse1.jpg&#34;/&gt;
+          
+        
+        
+        
+          一款关于职场的学习培训软件，平台拥有众多自身的职场导师，精选课程在线学习，全面的培养用户技能轻松就业，专家一对一服务解决用户各种职场疑问。
+          
+        
+        </description>
+    </item>
+    
+    <item>
+      <title>🔮Lieduoduo</title>
+      <link>https://canrvi.github.io/posts/lieduoduo/</link>
+      <pubDate>Sat, 01 Sep 2018 00:00:00 +0000</pubDate>
+      
+      <guid>https://canrvi.github.io/posts/lieduoduo/</guid>
+      <description>
+        
+          &lt;img src=&#34;https://canrvi.github.io/img/lieduoduo.jpg&#34;/&gt;
+          
+        
+        
+        
+          该产品致力于成就每一个互联网中高端人才的职业梦想，通过连接专业猎头顾问和求职者，让每一个求职者都拥有自己的专属猎头顾问。
+          
+        
+        </description>
+    </item>
+    
+    <item>
+      <title>🔫 PickMe</title>
+      <link>https://canrvi.github.io/posts/pickeme/</link>
+      <pubDate>Mon, 21 May 2018 00:00:00 +0000</pubDate>
+      
+      <guid>https://canrvi.github.io/posts/pickeme/</guid>
+      <description>
+        
+          &lt;img src=&#34;https://canrvi.github.io/img/pickme1.png&#34;/&gt;
+          
+        
+        
+        
+          &#34;Hello, friend?&#34; That&#39;s lame. Maybe I should give you a name?
+          
+        
+        </description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>https://canrvi.github.io/about/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://canrvi.github.io/about/</guid>
+      <description>
+        
+          
+          
+          
+        
+        
+        
+          我做过些什么 #  🔸 房地产营销平台 2019-2022 高级UI设计师 #    一家为地产商提供数字化服务的科技公司，担任研发部门UI设计师兼小组设计负责人，带领最多8名团队成员，负责B端平台系统、小程序等相关产品线的视觉和交互设计，把控整体设计质量以及规划设计目标，并对平台交互视觉一致性负责；
+  日常统筹各业务线的设计需求沟通以及任务分配，带领并指导小组成员完成设计任务，严格把控审核设计产出；
+  推动团队进行专业化建设，建立系统性的设计规范及组件库、团队协作流程建设，知识管理等；
+  🔸 招聘社区产品 2018-2019 UI设计师 #    公司主要营运为年轻职场人提供服务的多端平台系统，在职担任UI设计师，独立负责多个孵化产品视觉设计，包括社交名片小程序、职场招聘小程序、以及主要产品官网、后台系统等，并参与现有产品优化迭代更新；
+  参与日常设计小组需求分析讨论，并为产品设计制定设计风格，建立设计规范文档，以及输出视觉设计方案；
+  参与产品运营设计，包括线上、线下运营活动等视觉设计；
+  🔸有声类社交产品 2016-2017 UI设计师 #    团队专注于打造一款有声类社交产品，任职UI设计师岗位，负责移动端产品、官网及其他视觉设计。
+​
+  🌟 我正在寻找新的工作机会，随时欢迎您与我联系，点击这里可以查看我的详细履历。 #  
+          
+        
+        </description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>https://canrvi.github.io/home/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://canrvi.github.io/home/</guid>
+      <description>
+        
+          
+          
+          
+        
+        
+        
+          👋🏻 Hi, I`m Charlie #  我是一名UI设计师，计算机学科背景，拥有6年的toB、toC产品体验设计经验，主导并参与过设计规范系统、SaaS平台、小程序、APP等综合型项目设计。
+拥有2年以上的设计管理经验，负责团队人员管理、项目管理、设计规划、以及设计质量把控。
+热衷于产品视觉设计与新兴技术的探索，擅于全局性的看待和处理问题，具备设计体系化思路以及系统性的设计管理经验。熟悉设计流程及规范，追求设计的细节及品质。
+我正在寻找新的工作机会，随时欢迎您与我联系：canrvilee@gmail.com
+#  
+          
+        
+        </description>
+    </item>
+    
+    <item>
+      <title>Archive</title>
+      <link>https://canrvi.github.io/archive/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://canrvi.github.io/archive/</guid>
+      <description>
+        
+          
+          
+          
+        
+        
+        
+          
+          
+        
+        </description>
     </item>
     
   </channel>

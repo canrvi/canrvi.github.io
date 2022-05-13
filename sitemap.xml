@@ -2,32 +2,33 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>https://canrvi.github.io/</loc>
+    <loc>/</loc>
     <lastmod>2022-05-01T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://canrvi.github.io/posts/</loc>
+    <loc>/posts/</loc>
     <lastmod>2022-05-01T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://canrvi.github.io/posts/design-systems/</loc>
+    <loc>/posts/design-systems/</loc>
     <lastmod>2022-05-01T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://canrvi.github.io/posts/lighthouse/</loc>
+    <loc>/posts/lighthouse/</loc>
     <lastmod>2018-10-01T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://canrvi.github.io/posts/lieduoduo/</loc>
+    <loc>/posts/lieduoduo/</loc>
     <lastmod>2018-09-01T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://canrvi.github.io/posts/pickeme/</loc>
+    <loc>/posts/pickeme/</loc>
     <lastmod>2018-05-21T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://canrvi.github.io/about/</loc>
+    <loc>/about/</loc>
+    <priority>0</priority>
   </url><url>
-    <loc>https://canrvi.github.io/home/</loc>
+    <loc>/home/</loc>
   </url><url>
-    <loc>https://canrvi.github.io/archive/</loc>
+    <loc>/archive/</loc>
   </url><url>
-    <loc>https://canrvi.github.io/categories/</loc>
+    <loc>/categories/</loc>
   </url><url>
-    <loc>https://canrvi.github.io/tags/</loc>
+    <loc>/tags/</loc>
   </url>
 </urlset>

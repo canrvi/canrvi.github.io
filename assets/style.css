@@ -324,7 +324,7 @@ body
     background-color:#fff;
     background-color:var(--background);
     color:var(--color);
-    font-family:Inter,-apple-system,BlinkMacSystemFont,Roboto,Segoe UI,Helvetica,Arial,sans-serif,Gilroy;
+    font-family:Gilroy,-apple-system,BlinkMacSystemFont,Roboto,Segoe UI,Helvetica,Arial,sans-serif;
     font-size:0.8rem;
     font-weight:400;
     line-height:1.8;
@@ -338,48 +338,56 @@ body
     font-size:14px;
     line-height:1.8;
     font-weight:400;
+    font-family:"Gilroy";
 }
 
 }
 h1,h2,h3,h4,h5,h6
 {
     line-height:1.5;
+    font-family:Gilroy,-apple-system,BlinkMacSystemFont,Roboto,Segoe UI,Helvetica,Arial,sans-serif;
 }
 h1{
     font-size:60px;
-    font-family: "Gilroy";
     font-weight: 700;
 }
 h2{
     font-size:28px;
+    font-family:Gilroy,-apple-system,BlinkMacSystemFont,Roboto,Segoe UI,Helvetica,Arial,sans-serif;
 }
 h3{
     font-size:24px;
     margin: 40px 0px 0px;
+    font-family:Gilroy,-apple-system,BlinkMacSystemFont,Roboto,Segoe UI,Helvetica,Arial,sans-serif;
 }
 h4{
     font-size:18px;
     margin: 20px 0px 0px;
+    font-family:Gilroy,-apple-system,BlinkMacSystemFont,Roboto,Segoe UI,Helvetica,Arial,sans-serif;
 }
 h5{
     font-size: 16px;
+    font-family:Gilroy,-apple-system,BlinkMacSystemFont,Roboto,Segoe UI,Helvetica,Arial,sans-serif;
 }
 
 @media (max-width:683px)
 {
 h1{
     font-size:40px;
-    font-family:Gilroy;
+    font-family:Gilroy,-apple-system,BlinkMacSystemFont,Roboto,Segoe UI,Helvetica,Arial,sans-serif;
 }
 h2{
     font-size:20px;
+    font-family:Gilroy,-apple-system,BlinkMacSystemFont,Roboto,Segoe UI,Helvetica,Arial,sans-serif;
 }
 h3{
     font-size:18px;
+    font-family:Gilroy,-apple-system,BlinkMacSystemFont,Roboto,Segoe UI,Helvetica,Arial,sans-serif;
 }
 h4{
     font-size:16px;
     margin: 40px 0px 0px;
+    font-family:Gilroy,-apple-system,BlinkMacSystemFont,Roboto,Segoe UI,Helvetica,Arial,sans-serif;
 }
 
 }
@@ -402,7 +410,7 @@ code,kbd
     font-feature-settings:normal;
     background:rgba(255, 226, 179, 0.3);
     border-radius:0px;
-    font-family:Gilroy,Consolas,Monaco,Andale Mono,Ubuntu Mono,monospace;
+    font-family:Gilroy,-apple-system,BlinkMacSystemFont,Roboto,Segoe UI,Helvetica,Arial,sans-serif;
     font-weight: 400;
     line-height: 1.8;
     margin: auto;
@@ -470,6 +478,7 @@ ol,ul
     margin-left:16px;
     padding:0px;
     margin-bottom: 40px;
+    font-family:Gilroy,-apple-system,BlinkMacSystemFont,Roboto,Segoe UI,Helvetica,Arial,sans-serif;
 }
 
 @media (max-width:683px){ol,ul{margin-left:20px}}ol ol{list-style-type:lower-alpha}.container{text-align:center}
@@ -478,7 +487,8 @@ ol,ul
 {
     display:flex;
     flex-direction:column;
-    justify-content:center
+    justify-content:center;
+    font-family:Gilroy,-apple-system,BlinkMacSystemFont,Roboto,Segoe UI,Helvetica,Arial,sans-serif;
 }
 .content
 {
@@ -486,6 +496,7 @@ ol,ul
     flex:1 auto;
     margin:0;
     font-size:18px;
+    font-family:Gilroy,-apple-system,BlinkMacSystemFont,Roboto,Segoe UI,Helvetica,Arial,sans-serif;
 }
 @media (max-width:683px){
     .content{margin-top:0}
@@ -521,8 +532,7 @@ h1:hover a,h2:hover a,h3:hover a,h4:hover a{opacity:1;transition-delay:0s;}
     padding:20px;
     text-align:left;
     width:100%;
-    font-family:Inter,-apple-system,BlinkMacSystemFont,Roboto,Segoe UI,Helvetica,Arial,sans-serif,Gilroy;
-    
+    font-family:Gilroy,-apple-system,BlinkMacSystemFont,Roboto,Segoe UI,Helvetica,Arial,sans-serif;
 }
 @media (max-width:899px){.post{max-width:660px}}
 .post:not(:last-of-type)
@@ -550,12 +560,12 @@ color: #999A9A;
 {
 .post-title{
     font-size:32px;
-    font-family:Gilroy;
+    font-family:Gilroy,-apple-system,BlinkMacSystemFont,Roboto,Segoe UI,Helvetica,Arial,sans-serif;
 }
 
 .post-title a{
     font-size:24px;
-    font-family:Gilroy;
+    font-family:Gilroy,-apple-system,BlinkMacSystemFont,Roboto,Segoe UI,Helvetica,Arial,sans-serif;
 }
 }
 .post-title a
@@ -564,7 +574,7 @@ color: #999A9A;
     text-decoration:none;
     font-size: 32px;
     font-weight: 700;
-    font-family:Gilroy;
+    font-family:Gilroy,-apple-system,BlinkMacSystemFont,Roboto,Segoe UI,Helvetica,Arial,sans-serif;
 }
 
 .post-title :hover{
@@ -576,7 +586,7 @@ color: #999A9A;
     margin-bottom:20px;
     opacity:.5;
     color:#999A9A;
-    font-family:Inter,-apple-system,BlinkMacSystemFont,Roboto,Segoe UI,Helvetica,Arial,sans-serif,Gilroy;
+    font-family:Gilroy,-apple-system,BlinkMacSystemFont,Roboto,Segoe UI,Helvetica,Arial,sans-serif;
 }
 
 .post-content a{
@@ -590,7 +600,7 @@ color: #999A9A;
     margin-top:0px;
     color:var(--color-secondary);
     font-size: 16px;
-    font-family:Inter,-apple-system,BlinkMacSystemFont,Roboto,Segoe UI,Helvetica,Arial,sans-serif,Gilroy;
+    font-family:Gilroy,-apple-system,BlinkMacSystemFont,Roboto,Segoe UI,Helvetica,Arial,sans-serif;
 }
 .post-cover
 {
@@ -631,14 +641,15 @@ color: #999A9A;
     text-align:center;
     text-decoration:none;
     text-transform:uppercase;
-    z-index:1}
+    z-index:1;
+}
 .pagination__title hr{   
     left:0;
     margin-top:15px;
     position:absolute;
     right:0;
     width:100%;
-    z-index:0
+    z-index:0;
 }
 .pagination__buttons{
     align-items:center;
@@ -881,7 +892,7 @@ padding:20px 0
     border-bottom:1px solid var(--border-color)}
 .archive__post-title
 {
-    margin:5px 0
+    margin:5px 0;
 }
 .archive__post-title a
 {
@@ -985,7 +996,7 @@ padding-right:.8em
 .collapsable-code input[type=checkbox]:checked~label{border-radius:10px}
 .collapsable-code input[type=checkbox]:checked~label .collapsable-code__toggle:after{content:attr(data-label-expand)}
 .collapsable-code label{background:#eaeaea;background:var(--background-secondary);border-top-left-radius:10px;border-top-right-radius:10px;cursor:pointer;display:flex;justify-content:space-between;margin:0;min-height:30px;min-width:30px;padding:10px;position:relative}
-.collapsable-code__title{color:#222;color:var(--color);flex:1;overflow:hidden;padding:3px 10px;text-overflow:ellipsis;white-space:nowrap}
+.collapsable-code__title{color:#222;color:var(--color);flex:1;overflow:hidden;padding:3px 10px;text-overflow:ellipsis;white-space:nowrap;}
 .collapsable-code__language{background:#fff;background:var(--background);border-radius:10px;color:#222;color:var(--color);padding:3px 10px}
 .collapsable-code__toggle{color:#222;color:var(--color);font-size:16px;padding:3px 10px}
 .collapsable-code__toggle:after{content:attr(data-label-collapse)}

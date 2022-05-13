@@ -5,24 +5,24 @@
     
     
     
-    <link>https://canrvi.github.io/posts/</link>
+    <link>/posts/</link>
     <description>Recent content in Posts on Charlie</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Sun, 01 May 2022 00:00:00 +0000</lastBuildDate>
     
-	<atom:link href="https://canrvi.github.io/posts/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="/posts/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>💎 Design Systems</title>
-      <link>https://canrvi.github.io/posts/design-systems/</link>
+      <link>/posts/design-systems/</link>
       <pubDate>Sun, 01 May 2022 00:00:00 +0000</pubDate>
       
-      <guid>https://canrvi.github.io/posts/design-systems/</guid>
+      <guid>/posts/design-systems/</guid>
       <description>
         
-          &lt;img src=&#34;https://canrvi.github.io/img/design%20system.jpg&#34;/&gt;
+          &lt;img src=&#34;/img/design%20system.jpg&#34;/&gt;
           
         
         
@@ -35,13 +35,13 @@
     
     <item>
       <title>🌟Lighthouse</title>
-      <link>https://canrvi.github.io/posts/lighthouse/</link>
+      <link>/posts/lighthouse/</link>
       <pubDate>Mon, 01 Oct 2018 00:00:00 +0000</pubDate>
       
-      <guid>https://canrvi.github.io/posts/lighthouse/</guid>
+      <guid>/posts/lighthouse/</guid>
       <description>
         
-          &lt;img src=&#34;https://canrvi.github.io/img/lighthouse1.jpg&#34;/&gt;
+          &lt;img src=&#34;/img/lighthouse1.jpg&#34;/&gt;
           
         
         
@@ -54,13 +54,13 @@
     
     <item>
       <title>🔮Lieduoduo</title>
-      <link>https://canrvi.github.io/posts/lieduoduo/</link>
+      <link>/posts/lieduoduo/</link>
       <pubDate>Sat, 01 Sep 2018 00:00:00 +0000</pubDate>
       
-      <guid>https://canrvi.github.io/posts/lieduoduo/</guid>
+      <guid>/posts/lieduoduo/</guid>
       <description>
         
-          &lt;img src=&#34;https://canrvi.github.io/img/lieduoduo.jpg&#34;/&gt;
+          &lt;img src=&#34;/img/lieduoduo.jpg&#34;/&gt;
           
         
         
@@ -73,13 +73,13 @@
     
     <item>
       <title>🔫 PickMe</title>
-      <link>https://canrvi.github.io/posts/pickeme/</link>
+      <link>/posts/pickeme/</link>
       <pubDate>Mon, 21 May 2018 00:00:00 +0000</pubDate>
       
-      <guid>https://canrvi.github.io/posts/pickeme/</guid>
+      <guid>/posts/pickeme/</guid>
       <description>
         
-          &lt;img src=&#34;https://canrvi.github.io/img/pickme1.png&#34;/&gt;
+          &lt;img src=&#34;/img/pickme1.png&#34;/&gt;
           
         
         

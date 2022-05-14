@@ -654,18 +654,22 @@ color: #999A9A;
 .pagination__buttons{
     align-items:center;
     display:flex;
-    justify-content:center}
+    justify-content:center;
+   
+}
 .pagination__buttons a{
     font-weight:700;
     text-decoration:none;
 }
+
+/*翻页按钮*/
 .button{
     align-items:center;
     -webkit-appearance:none;
     -moz-appearance:none;
     appearance:none;
-    background:#eaeaea;
     background:var(--background-secondary);
+    background:var(--border-color);
     border-radius:8px;
     cursor:pointer;
     display:inline-flex;
@@ -674,41 +678,49 @@ color: #999A9A;
     justify-content:center;
     max-width:40%;
     padding:0;
-    position:relative}
-.button+.button{margin-left:10px}
+    position:relative;
+}
+.button+.button{
+    margin-left:16px;
+}
+
 .button a{
     display:flex;
-    padding:8px 16px;
     text-decoration:none;
+    text-overflow: ellipsis;
 }
 .button__text
 {
-    color: rgb(0, 0, 0);
-    padding: 8px 8px 8px 4px;
-    margin: 4px;
+    color:var(--background-secondary);
+    padding: 8px,16px;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    overflow: hidden;
 }
 .button a{
     overflow:hidden;
     text-overflow:ellipsis;
     white-space:nowrap;
-    padding: 2px 0 2px 0;
+    padding: 8px 16px;
 }
+
 .button.next 
 {
-    color: rgb(0, 0, 0);
-    margin-left:8px;
+    color:var(--background-secondary);
 }
 .button__icon
 {
     margin-left:8px;
     margin-right:8px;
-    padding: 10px;
-    color: #000;
+    color:var(--background-secondary);
 }
 .button.previous 
 {
-    background-color: var(--background-secondary);
+    background:var(--background-secondary);
+    background:var(--border-color);
 } 
+
+/*页脚*/
 .footer
 {
 color:#a9a9b3;

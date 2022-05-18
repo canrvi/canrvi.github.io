@@ -3,12 +3,12 @@
 --background:#ffffff;
 --header:#ffffff;
 --color:#000000;
---color-secondary:rgb(0, 0, 0);
+--color-secondary:#000000;
 --border-color:#dcdcdc71;
 --phoneWidth:(max-width:684px);
---tabletWidth:(max-width:900px)
-
+--tabletWidth:(max-width:900px);
 }
+
 body.dark-theme
 {
 --background:rgb(22, 22, 22);
@@ -71,59 +71,51 @@ font-weight:800;src:url(fonts/Inter-BoldItalic.woff2) format("woff2")}
     text-decoration:none
 }
 
-    .button.outline,a.button.outline,button.outline
-    {
+.button.outline,a.button.outline,button.outline{
     background:transparent;
     border-color:#eaeaea;
     border-color:var(--background-secondary);
-    box-shadow:none;padding:8px 18px
-    }
-    .button.outline :hover,a.button.outline :hover,button.outline :hover
-    {
-    box-shadow:none;transform:none
-    }
-    .button.primary,a.button.primary,button.primary
-    {
-    box-shadow:0 4px 6px rgba(50,50,93,.11),0 1px 3px rgba(0,0,0,.08)
-    }
-    .button.primary:hover,a.button.primary:hover,button.primary:hover{
-    box-shadow:0 2px 6px rgba(50,50,93,.21),0 1px 3px rgba(0,0,0,.08)
+    box-shadow:none;padding:8px 18px    
 }
-    .button.link,a.button.link,button.link
+.button.outline :hover,a.button.outline :hover,button.outline :hover{
+    box-shadow:none;transform:none
+}
+.button.primary,a.button.primary,button.primary{
+    box-shadow:0 4px 6px rgba(50,50,93,.11),0 1px 3px rgba(0,0,0,.08);
+}
+.button.primary:hover,a.button.primary:hover,button.primary:hover{
+    box-shadow:0 2px 6px rgba(50,50,93,.21),0 1px 3px rgba(0,0,0,.08);
+}.button.link,a.button.link,button.link
 {
     background:#6196cc;
     color:#6196cc;
     font-size:1rem;    
 }
-    .button.small,a.button.small,button.small
-    {
-    font-size:.8rem；
+.button.small,a.button.small,button.small{
+    font-size:0.8rem;
 }
-    .button.wide,a.button.wide,button.wide
-    {
+.button.wide,a.button.wide,button.wide{
     min-width:200px;
     padding:14px 24px;
-    }
-    a.read-more,a.read-more:active
-    {
+}
+a.read-more,a.read-more:active{
     background:none;
     box-shadow:none;
     display:inline-flex;
-    font-family: "Gilroy";
+    font-family: Gilroy,-apple-system,BlinkMacSystemFont,Roboto,Segoe UI,Helvetica,Arial,sans-serif;
     font-weight:700;
-    margin:20px 0;
+    margin:12px 0;
     padding:0;
     color: var(--color-secondary);
-    }
-    a.read-more:hover{
-        color: rgba(220, 220, 220, 0.9);
-    }
-    .code-toolbar{
-        margin-bottom:20px;
-    }
-    .code-toolbar 
-    .toolbar-item a
-    {
+}
+a.read-more:hover{
+    color: rgba(220, 220, 220, 0.9);
+}
+.code-toolbar{
+    margin-bottom:20px;
+}
+.code-toolbar 
+.toolbar-item a{
     -webkit-appearance:none;
     -moz-appearance:none;
     appearance:none;
@@ -146,11 +138,16 @@ font-weight:800;src:url(fonts/Inter-BoldItalic.woff2) format("woff2")}
     {
     background:#fafafa;
     background:var(--header);
-    display:flex;padding:20px;}
+    display:flex;
+    padding:20px;
+}
+    
     .header__right
     {
     align-items:center;
-    display:flex;flex-direction:row;
+    display:flex;
+    flex-direction:row;
+    
 }
 
     @media (max-width:683px){
@@ -163,7 +160,7 @@ font-weight:800;src:url(fonts/Inter-BoldItalic.woff2) format("woff2")}
         justify-content:space-between;
         margin:0 auto;
         max-width:100%;
-        width:860px;
+        width:1080px;
     }
     .header__inner,.theme-toggle
     {
@@ -182,9 +179,9 @@ font-weight:800;src:url(fonts/Inter-BoldItalic.woff2) format("woff2")}
     align-items:center;
     display:flex;
     flex:0 0 auto;
-    font-weight:700;
+    font-weight:800;
     text-decoration:none;
-    font-family: "Gilroy";
+    font-family:Domaine Sans Display,Gilroy,-apple-system,BlinkMacSystemFont,Roboto,Segoe UI,Helvetica,Arial,sans-serif;
     
 }
 .logo img{
@@ -209,8 +206,6 @@ font-weight:800;src:url(fonts/Inter-BoldItalic.woff2) format("woff2")}
 {
 font-size:28px;
 color: var(--background-secondary);
-font-family: Gilroy;
-
 }
 .logo__cursor
 {
@@ -221,7 +216,7 @@ border-radius:1px;
 display:inline-block;
 height: 24px;
 margin-left:5px;
-width:8px;
+width:2px;
 }
 
 @-webkit-keyframes cursor{0%{opacity:0}50%{opacity:1}to{opacity:0}}
@@ -230,7 +225,7 @@ width:8px;
 color:#a9a9b3;
 color: var(--background-secondary);
 --shadow:0px 8px 20px;
-font-weight:500;
+font-weight:300;
 margin-right:18px;
 padding-right:20px;
 }
@@ -249,11 +244,15 @@ padding-right:20px;
     right:20px;
     top:64px;
     z-index:99;
+    font-weight:400;
 }
 }
 .menu a
 {
     text-decoration:none;
+    font-weight:400;
+    font-family:Gilroy,-apple-system,BlinkMacSystemFont,Roboto,Segoe UI,Helvetica,Arial,sans-serif;
+
  }
  .menu :hover
 {
@@ -324,7 +323,6 @@ body
     background-color:#fff;
     background-color:var(--background);
     color:var(--color);
-    font-family:Gilroy,-apple-system,BlinkMacSystemFont,Roboto,Segoe UI,Helvetica,Arial,sans-serif;
     font-size:0.8rem;
     font-weight:400;
     line-height:1.8;
@@ -338,7 +336,7 @@ body
     font-size:14px;
     line-height:1.8;
     font-weight:400;
-    font-family:"Gilroy";
+    font-family:Gilroy,-apple-system,BlinkMacSystemFont,Roboto,Segoe UI,Helvetica,Arial,sans-serif;
 }
 
 }
@@ -346,35 +344,38 @@ h1,h2,h3,h4,h5,h6
 {
     line-height:1.5;
     font-family:Gilroy,-apple-system,BlinkMacSystemFont,Roboto,Segoe UI,Helvetica,Arial,sans-serif;
+    font-weight: 700;
 }
 h1{
     font-size:60px;
-    font-weight: 700;
+    font-family:Domaine Sans Display,Gilroy,-apple-system,BlinkMacSystemFont,Roboto,Segoe UI,Helvetica,Arial,sans-serif;
 }
 h2{
     font-size:28px;
-    font-family:Gilroy,-apple-system,BlinkMacSystemFont,Roboto,Segoe UI,Helvetica,Arial,sans-serif;
 }
 h3{
     font-size:24px;
     margin: 40px 0px 0px;
-    font-family:Gilroy,-apple-system,BlinkMacSystemFont,Roboto,Segoe UI,Helvetica,Arial,sans-serif;
 }
 h4{
     font-size:18px;
     margin: 20px 0px 0px;
-    font-family:Gilroy,-apple-system,BlinkMacSystemFont,Roboto,Segoe UI,Helvetica,Arial,sans-serif;
 }
 h5{
     font-size: 16px;
-    font-family:Gilroy,-apple-system,BlinkMacSystemFont,Roboto,Segoe UI,Helvetica,Arial,sans-serif;
+    font-weight: 400;
+    color: #999A9A;
+    margin: 10px 0px 0px;
+
 }
 
 @media (max-width:683px)
 {
 h1{
     font-size:40px;
-    font-family:Gilroy,-apple-system,BlinkMacSystemFont,Roboto,Segoe UI,Helvetica,Arial,sans-serif;
+    font-family:Domaine Sans Display,Gilroy,-apple-system,BlinkMacSystemFont,Roboto,Segoe UI,Helvetica,Arial,sans-serif;
+    margin: auto;
+    padding-right: 30px;
 }
 h2{
     font-size:20px;
@@ -527,55 +528,69 @@ h1:hover a,h2:hover a,h3:hover a,h4:hover a{opacity:1;transition-delay:0s;}
 
 .post
 {
-    margin:20px auto;
-    max-width:860px;
+    margin:auto;
+    max-width:980px;
     padding:20px;
     text-align:left;
     width:100%;
     font-family:Gilroy,-apple-system,BlinkMacSystemFont,Roboto,Segoe UI,Helvetica,Arial,sans-serif;
 }
-@media (max-width:899px){.post{max-width:660px}}
+@media (max-width:899px){.post{max-width:660px;}}
 .post:not(:last-of-type)
 {
 border-bottom:1px solid #dcdcdc;
-border-bottom:1px solid var(--border-color)}
+border-bottom:1px solid var(--border-color);}
+
 .post-meta{
     font-size:14px;
     margin-bottom:10px;
     color: #999A9A;
    
 }
+
+
 @media (max-width:683px)
 {
 .post-meta{
 font-size:12px;
 color: #999A9A;
 }}
-.post-title{
-    font-size:40px;
-    font-weight: bold;
-    margin:4px;
+
+.post-title
+{
+    color: var(--background-secondary);
+    margin: auto;
+    text-decoration:none;
+    font-size: 44px;
+    font-weight: 700;
+    font-family:Domaine Sans Display,Gilroy,-apple-system,BlinkMacSystemFont,Roboto,Segoe UI,Helvetica,Arial,sans-serif;
+}
+
+.post-title a{
+    color: var(--background-secondary);
+    font-size:44px;
+    font-weight: 700;
+    font-family:Domaine Sans Display,Gilroy,-apple-system,BlinkMacSystemFont,Roboto,Segoe UI,Helvetica,Arial,sans-serif;
+    text-decoration:none;
 }
 @media (max-width:683px)
 {
 .post-title{
     font-size:32px;
-    font-family:Gilroy,-apple-system,BlinkMacSystemFont,Roboto,Segoe UI,Helvetica,Arial,sans-serif;
-}
-
-.post-title a{
-    font-size:24px;
-    font-family:Gilroy,-apple-system,BlinkMacSystemFont,Roboto,Segoe UI,Helvetica,Arial,sans-serif;
-}
-}
-.post-title a
-{
+    font-family:Domaine Sans Display,Gilroy,-apple-system,BlinkMacSystemFont,Roboto,Segoe UI,Helvetica,Arial,sans-serif;
     color: var(--background-secondary);
     text-decoration:none;
-    font-size: 32px;
     font-weight: 700;
-    font-family:Gilroy,-apple-system,BlinkMacSystemFont,Roboto,Segoe UI,Helvetica,Arial,sans-serif;
 }
+.post-title a{
+    font-size:32px;
+    font-family:Domaine Sans Display,Gilroy,-apple-system,BlinkMacSystemFont,Roboto,Segoe UI,Helvetica,Arial,sans-serif;
+    color: var(--background-secondary);
+    text-decoration:none;
+    font-weight: 700;
+}
+}
+
 
 .post-title :hover{
     color: #999A9A;
@@ -586,7 +601,7 @@ color: #999A9A;
     margin-bottom:20px;
     opacity:.5;
     color:#999A9A;
-    font-family:Gilroy,-apple-system,BlinkMacSystemFont,Roboto,Segoe UI,Helvetica,Arial,sans-serif;
+    font-family:-apple-system,BlinkMacSystemFont,Roboto,Segoe UI,Helvetica,Arial,sans-serif;
 }
 
 .post-content a{
@@ -600,16 +615,23 @@ color: #999A9A;
     margin-top:0px;
     color:var(--color-secondary);
     font-size: 16px;
+    font-weight: 400;
+    line-height: 2;
     font-family:Gilroy,-apple-system,BlinkMacSystemFont,Roboto,Segoe UI,Helvetica,Arial,sans-serif;
 }
 .post-cover
 {
     margin:20px,5px; 
-    max-width:860px;
-    width:100%;
+    max-width:100%;
+    width:1080px;
+   
 }
 
-.post-cover img{border-radius:1px;box-shadow:0 0 0 rgba(0,0,0,0);margin:0 auto;}
+.post-cover img{
+    border-radius:0px;
+    box-shadow:0 0 0 rgba(0,0,0,0);
+    margin:0 auto;
+}
 
 @media (max-width:899px)
 {
@@ -725,22 +747,25 @@ color: #999A9A;
 {
 color:#a9a9b3;
 color: var(--background-secondary);
-flex-grow:0;
+position: relative;
 margin:auto; 
+padding-top: 100px;
+padding-bottom: 16px;
 max-width:100%;
-width:860px;
-font-family: "Gilroy";
+width:1080px;
+font-family:Gilroy,-apple-system,BlinkMacSystemFont,Roboto,Segoe UI,Helvetica,Arial,sans-serif;
 font-weight: 500;
+
 }
 .footer a{
     text-decoration: none;
     color:#a9a9b3;
-    font-family: "Gilroy";
+    font-family:Gilroy,-apple-system,BlinkMacSystemFont,Roboto,Segoe UI,Helvetica,Arial,sans-serif;
 }
 .footer a:hover{
     text-decoration: none;
     color:#6196cc;
-    font-family: Gilroy;
+    font-family:Gilroy,-apple-system,BlinkMacSystemFont,Roboto,Segoe UI,Helvetica,Arial,sans-serif;
 }
 .footer__inner
 {
@@ -752,7 +777,7 @@ font-weight: 500;
     padding:20px; 
     width:860px;
     color:#a9a9b3;
-    font-family: "Gilroy";
+    font-family:Gilroy,-apple-system,BlinkMacSystemFont,Roboto,Segoe UI,Helvetica,Arial,sans-serif;
 
 }
 @media (max-width:1439px)
@@ -773,7 +798,7 @@ color:#a9a9b3;
 .footer{
     color:#a9a9b3;
     font-family: "Gilroy";
-
+    padding-top: 20px;
        }
 .copyright{
     align-items:center;
@@ -919,7 +944,7 @@ word-break:normal;word-spacing:normal}pre[class*=language-]
 {
 margin:.5em 0;
 overflow:auto;
-padding:1em}:not(pre)>code[class*=language-],pre[class*=language-]{background:#ffffff;!important;border-radius:8px;color:inherit!important}:not(pre)>code[class*=language-]{border-radius:.3em;padding:.1em;white-space:normal}
+padding:1em}:not(pre)>code[class*=language-],pre[class*=language-]{background:#ffffff;border-radius:8px;color:inherit;}:not(pre)>code[class*=language-]{border-radius:.3em;padding:.1em;white-space:normal}
 .token.block-comment,.token.cdata,.token.comment,.token.doctype,.token.prolog{color:hsla(0,0%,100%,.4)}
 .token.punctuation{color:#a9a9b3}
 .token.attr-name,.token.deleted,.token.namespace,.token.tag
@@ -957,7 +982,16 @@ div.code-toolbar:hover>
 {
 display:inline-block;
 }
-div.code-toolbar>.toolbar a{cursor:pointer}div.code-toolbar>.toolbar button{background:none;border:0;color:inherit;font:inherit;line-height:normal;overflow:visible;padding:0;
+div.code-toolbar>.toolbar a{
+    cursor:pointer;}
+div.code-toolbar>.toolbar button{
+    background:none;
+    border:0;
+    color:inherit;
+    font:inherit;
+    line-height:normal;
+    overflow:visible;
+    padding:0;
 -webkit-user-select:none;
 -moz-user-select:none;
 -ms-user-select:none;

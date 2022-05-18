@@ -8,7 +8,7 @@
     <link>/posts/</link>
     <description>Recent content in Posts on Charlie</description>
     <generator>Hugo -- gohugo.io</generator>
-    <language>en-us</language>
+    <language>zh-CN</language>
     <lastBuildDate>Sun, 01 May 2022 00:00:00 +0000</lastBuildDate>
     
 	<atom:link href="/posts/index.xml" rel="self" type="application/rss+xml" />
@@ -53,7 +53,7 @@
     </item>
     
     <item>
-      <title>👽 Lieduoduo</title>
+      <title>社交招聘小程序</title>
       <link>/posts/lieduoduo/</link>
       <pubDate>Sat, 01 Sep 2018 00:00:00 +0000</pubDate>
       

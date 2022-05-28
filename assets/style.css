@@ -1,9 +1,9 @@
 :root
 {
---background:#ffffff;
---header:#ffffff;
+--background:rgb(255, 255, 255);
+--header:rgb(255, 255, 255);
 --color:#000000;
---color-secondary:#000000;
+--color-secondary:rgb(102 102 102);
 --border-color:#dcdcdc71;
 --phoneWidth:(max-width:684px);
 --tabletWidth:(max-width:900px);
@@ -101,12 +101,19 @@ font-weight:800;src:url(fonts/Inter-BoldItalic.woff2) format("woff2")}
 a.read-more,a.read-more:active{
     background:none;
     box-shadow:none;
-    display:inline-flex;
     font-family: Gilroy,-apple-system,BlinkMacSystemFont,Roboto,Segoe UI,Helvetica,Arial,sans-serif;
     font-weight:700;
-    margin:12px 0;
+    color: var(--color);
+    margin:auto;
     padding:0;
-    color: var(--color-secondary);
+    
+
+    max-width:100%;
+    display:flex;
+    flex-wrap:wrap;
+    justify-content:flex-start;
+    list-style:none;
+    
 }
 a.read-more:hover{
     color: rgba(220, 220, 220, 0.9);
@@ -130,19 +137,20 @@ a.read-more:hover{
     font-weight:700;
     margin-bottom:5px;
     outline:none;padding:3px 8px;text-align:center;text-decoration:none;}
-    .code-toolbar .toolbar-item a,.header{
-        align-items:center;justify-content:center;position:relative;
-        
+.code-toolbar .toolbar-item a,.header{
+        align-items:center;
+        justify-content:center;
+        position:relative;
     }
-    .header
+.header
     {
     background:#fafafa;
     background:var(--header);
     display:flex;
-    padding:20px;
+    padding-top:40px;
 }
     
-    .header__right
+.header__right
     {
     align-items:center;
     display:flex;
@@ -150,29 +158,32 @@ a.read-more:hover{
     
 }
 
-    @media (max-width:683px){
-    .header__right
+@media (max-width:683px){
+
+    
+.header__right
     {
         flex-direction:row-reverse;
     }} 
-    .header__inner
+.header__inner
     {
         justify-content:space-between;
         margin:0 auto;
+        padding: 20px;
         max-width:100%;
-        width:1080px;
+        width:980px;
     }
-    .header__inner,.theme-toggle
+.header__inner,.theme-toggle
     {
-        align-items:center;display:flex;
+        align-items:center;
+        display:flex;
     }
-    .theme-toggle
+.theme-toggle
     {
-        cursor:pointer;justify-content:center;line-height:1;
-    }
-    .theme-toggler
-    {
-        fill:currentColor;
+        cursor:pointer;
+        justify-content:center;
+        line-height:1;
+        fill:var(--color);
     }
 
 .logo{
@@ -202,11 +213,12 @@ a.read-more:hover{
     stroke-width:8px;
     color: var(--background-secondary);
 }
-.logo__text
-{
+.logo__text{
 font-size:28px;
 color: var(--background-secondary);
 }
+
+/*logo光标*/
 .logo__cursor
 {
 -webkit-animation:cursor 1s infinite;
@@ -233,10 +245,10 @@ padding-right:20px;
 {
 .menu
 {
-    color:var(--border-color);
+    background-color: var(--background);
     border:none;
     border-radius:6px;
-    box-shadow:var(--shadow);
+    box-shadow:0px 8px 20px var(--border-color);
     list-style:none;
     margin:auto;
     padding:4px 20px 4px;
@@ -250,7 +262,7 @@ padding-right:20px;
 .menu a
 {
     text-decoration:none;
-    font-weight:400;
+    font-weight:500;
     font-family:Gilroy,-apple-system,BlinkMacSystemFont,Roboto,Segoe UI,Helvetica,Arial,sans-serif;
 
  }
@@ -320,7 +332,7 @@ body
     -webkit-font-smoothing:antialiased;
     -webkit-overflow-scrolling:touch;
     -webkit-text-size-adjust:100%;
-    background-color:#fff;
+    background-color:rgb(255, 0, 0);
     background-color:var(--background);
     color:var(--color);
     font-size:0.8rem;
@@ -340,11 +352,15 @@ body
 }
 
 }
+
 h1,h2,h3,h4,h5,h6
 {
     line-height:1.5;
     font-family:Gilroy,-apple-system,BlinkMacSystemFont,Roboto,Segoe UI,Helvetica,Arial,sans-serif;
     font-weight: 700;
+    color: var(--color);
+    margin:auto;
+   
 }
 h1{
     font-size:60px;
@@ -362,11 +378,10 @@ h4{
     margin: 20px 0px 0px;
 }
 h5{
-    font-size: 16px;
+    font-size: 14px;
     font-weight: 400;
     color: #999A9A;
     margin: 10px 0px 0px;
-
 }
 
 @media (max-width:683px)
@@ -375,7 +390,7 @@ h1{
     font-size:40px;
     font-family:Domaine Sans Display,Gilroy,-apple-system,BlinkMacSystemFont,Roboto,Segoe UI,Helvetica,Arial,sans-serif;
     margin: auto;
-    padding-right: 30px;
+    
 }
 h2{
     font-size:20px;
@@ -396,10 +411,18 @@ a{
     color:inherit;
     color:var(--color);
 }
-img{display:block;max-width:100%;}
+img{
+    display:block;
+    max-width:100%;
+}
 img.center,img.left{margin-right:auto;}
 img.center,img.right{margin-left:auto;}
-figure{display:table;margin:25px 0;max-width:100%;}
+
+figure{
+    display:table;
+    margin:25px 0;
+    max-width:120px;
+}
 figure.center,figure.left{margin-right:auto}
 figure.center,figure.right{margin-left:auto}
 figure figcaption{font-size:.9rem;margin-top:5px;opacity:.8;}
@@ -494,8 +517,8 @@ ol,ul
 .content
 {
     align-items:center;
-    flex:1 auto;
-    margin:0;
+  
+    
     font-size:18px;
     font-family:Gilroy,-apple-system,BlinkMacSystemFont,Roboto,Segoe UI,Helvetica,Arial,sans-serif;
 }
@@ -526,15 +549,43 @@ h1:hover a,h2:hover a,h3:hover a,h4:hover a{opacity:1;transition-delay:0s;}
 .framed 
 .h-anchor{visibility:hidden;}
 
+
+
 .post
 {
     margin:auto;
     max-width:980px;
+    width: 100%;
     padding:20px;
     text-align:left;
-    width:100%;
     font-family:Gilroy,-apple-system,BlinkMacSystemFont,Roboto,Segoe UI,Helvetica,Arial,sans-serif;
 }
+
+
+
+.post-title
+{
+    color: var(--background-secondary);
+    margin: auto;
+    width: 100%; 
+    text-decoration:none;
+    font-size: 44px;
+    font-weight: 700;
+    font-family:Domaine Sans Display,Gilroy,-apple-system,BlinkMacSystemFont,Roboto,Segoe UI,Helvetica,Arial,sans-serif;
+    display:flex;
+    flex-wrap:wrap;
+    justify-content:flex-start;
+}
+
+.post-title a{
+    color: var(--background-secondary);
+    font-size:44px;
+    font-weight: 700;
+    font-family:Domaine Sans Display,Gilroy,-apple-system,BlinkMacSystemFont,Roboto,Segoe UI,Helvetica,Arial,sans-serif;
+    text-decoration:none;
+}
+
+
 @media (max-width:899px){.post{max-width:660px;}}
 .post:not(:last-of-type)
 {
@@ -545,7 +596,6 @@ border-bottom:1px solid var(--border-color);}
     font-size:14px;
     margin-bottom:10px;
     color: #999A9A;
-   
 }
 
 
@@ -554,25 +604,10 @@ border-bottom:1px solid var(--border-color);}
 .post-meta{
 font-size:12px;
 color: #999A9A;
-}}
-
-.post-title
-{
-    color: var(--background-secondary);
-    margin: auto;
-    text-decoration:none;
-    font-size: 44px;
-    font-weight: 700;
-    font-family:Domaine Sans Display,Gilroy,-apple-system,BlinkMacSystemFont,Roboto,Segoe UI,Helvetica,Arial,sans-serif;
+}
 }
 
-.post-title a{
-    color: var(--background-secondary);
-    font-size:44px;
-    font-weight: 700;
-    font-family:Domaine Sans Display,Gilroy,-apple-system,BlinkMacSystemFont,Roboto,Segoe UI,Helvetica,Arial,sans-serif;
-    text-decoration:none;
-}
+
 @media (max-width:683px)
 {
 .post-title{
@@ -613,17 +648,17 @@ color: #999A9A;
 }
 .post-content{
     margin-top:0px;
-    color:var(--color-secondary);
     font-size: 16px;
     font-weight: 400;
     line-height: 2;
     font-family:Gilroy,-apple-system,BlinkMacSystemFont,Roboto,Segoe UI,Helvetica,Arial,sans-serif;
+    color: var(--color-secondary);
 }
 .post-cover
 {
     margin:20px,5px; 
     max-width:100%;
-    width:1080px;
+    width:980px;
    
 }
 
@@ -631,12 +666,26 @@ color: #999A9A;
     border-radius:0px;
     box-shadow:0 0 0 rgba(0,0,0,0);
     margin:0 auto;
+    max-width:100%;
+   
 }
 
 @media (max-width:899px)
 {
 
-.post-cover{margin:20px 0;width:100%}}
+.post-cover{
+    margin:4px 0;
+    width:100%;}
+
+.post-content{
+    margin-top:0px;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 1.5;
+    font-family:Gilroy,-apple-system,BlinkMacSystemFont,Roboto,Segoe UI,Helvetica,Arial,sans-serif;
+
+
+}}
 .post--regulation h1,
 .post--regulation h2{justify-content:center}
 .post--regulation h2{margin-bottom:10px}
@@ -749,8 +798,7 @@ color:#a9a9b3;
 color: var(--background-secondary);
 position: relative;
 margin:auto; 
-padding-top: 100px;
-padding-bottom: 16px;
+padding-top: 20px;
 max-width:100%;
 width:1080px;
 font-family:Gilroy,-apple-system,BlinkMacSystemFont,Roboto,Segoe UI,Helvetica,Arial,sans-serif;
@@ -805,8 +853,8 @@ color:#a9a9b3;
     display:flex;
     flex-direction:row;
     font-family: Gilroy;
-
-        }
+    padding:atuo;
+}
 .footer.copyright--user
 {
     margin:auto;

@@ -20,10 +20,12 @@
     <loc>/posts/pickeme/</loc>
     <lastmod>2018-05-21T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>/about/</loc>
-    <priority>0</priority>
+    <loc>/contact/</loc>
   </url><url>
     <loc>/home/</loc>
+  </url><url>
+    <loc>/work/</loc>
+    <priority>0</priority>
   </url><url>
     <loc>/archive/</loc>
   </url><url>

@@ -424,12 +424,17 @@ figure{
     margin:25px 0;
     max-width:120px;
 }
-figure.center,figure.left{margin-right:auto}
-figure.center,figure.right{margin-left:auto}
+/*figure img {
+    border-radius: 100px;
+}*/
+
+figure.center,figure.left{margin-right:auto;}
+figure.center,figure.right{margin-left:auto; }
 figure figcaption{font-size:.9rem;margin-top:5px;opacity:.8;}
-figure figcaption.left{text-align:left}
-figure figcaption.center{text-align:center}
-figure figcaption.right{text-align:right}
+figure figcaption.left{text-align:left;}
+figure figcaption.center{text-align:center;}
+figure figcaption.right{text-align:right;}
+
 code,kbd
     {
     font-feature-settings:normal;
@@ -1224,3 +1229,53 @@ padding-right:.8em
 .collapsable-code code:first-line,
 .collapsable-code pre:first-line{line-height:0}
 .collapsable-code .code-toolbar{margin:0}
+
+
+.home{
+    
+    width: 980px;
+    max-width:100%;
+    margin: auto;
+    padding: 20px;
+}
+
+.home-title{
+    margin: auto;
+    padding: auto;
+    max-width: 100%;
+}
+
+.home-title h1{
+    display: flex;
+    text-align: left;
+    color:var(--color);
+    max-width: 100%;
+}
+
+.home-content{
+   
+    margin: auto;
+    max-width: 100%;
+    padding-bottom: 80px;
+}
+
+.home-content p{
+    color:var(--color-secondary);
+    text-align: left;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 2;
+    margin: auto;
+    padding: auto;
+    max-width: 100%;
+    width: 100%;
+}
+.profile{
+    margin:0px;
+    padding-bottom:40px;
+}
+
+.profile-image{
+    border-radius: 500px;
+    width: 150px;
+}

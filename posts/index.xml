@@ -8,14 +8,14 @@
     <link>/posts/</link>
     <description>Recent content in Posts on Charlie</description>
     <generator>Hugo -- gohugo.io</generator>
-    <language>zh-CN</language>
+    <language>zh-Hant</language>
     <lastBuildDate>Sun, 01 May 2022 00:00:00 +0000</lastBuildDate>
     
 	<atom:link href="/posts/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
-      <title>IMD设计系统 </title>
+      <title>构建设计规范体系 </title>
       <link>/posts/design-systems/</link>
       <pubDate>Sun, 01 May 2022 00:00:00 +0000</pubDate>
       
@@ -27,7 +27,26 @@
         
         
         
-          在团队里担任组长一职时的自发项目，目的是为了提高团队设计协作效率以及提高团队设计影响力。
+          在数字化产品团队里担任设计组长一职时所主导的项目，策划目的是为了提高团队设计协作效率以及提高团队设计影响力。
+          
+        
+        </description>
+    </item>
+    
+    <item>
+      <title>组件可视化编辑器 </title>
+      <link>/posts/no-code/</link>
+      <pubDate>Thu, 22 Apr 2021 00:00:00 +0000</pubDate>
+      
+      <guid>/posts/no-code/</guid>
+      <description>
+        
+          &lt;img src=&#34;/img/no-code.png&#34;/&gt;
+          
+        
+        
+        
+          在数字化产品团队里担任设计组长一职时所主导的项目，策划目的是为了提高团队设计协作效率以及提高团队设计影响力。
           
         
         </description>

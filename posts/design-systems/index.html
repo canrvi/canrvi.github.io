@@ -21,11 +21,10 @@
 策略行动 #  设计体系不仅仅是一个框架、UI 工具包或组件库，也不仅仅是一个风格指南或一组代码指南，它应该是落到实处的，正确有效的帮助团队以及产品不断的前进和发展，所以我们制定了全方位的行动策略。
 协作流程优化 #  产品在业务上经常是同时服务多个客户，客户经理以及产品经理作为需求的收口，接收来自多方客户以及多条业务线提出的需求，再汇总输出PRD文档给到设计师进行下一步的设计。在原有的生产协作中，设计师参与程度比较单一，无法深入了解业务以及真实诉求，有一定的信息偏差，设计师的自我价值也难以在工作中体现。
 通过流程优化，让每位参与产品设计的设计师能够更多的参与到需求讨论以及产品规划中。同时，本着专人专项的原则，每位设计师都有自己负责跟进的主业务线，以便深入的了解目标群体和业务目标。在完成设计开发开发后也需要持续对设计负责，包括上线前设计还原验收以及产品上线后效果跟进。
-视觉规范建设 #  我们基于“原子理论”的分层设计模式，进行了组件的拆解和设计。在与产品团队基于业务场景进行多次分析和讨论，经过多次打磨和设计迭代后，从0到1完成了一套拥有 550&#43; 组件、 90&#43; 样式，以及覆盖页面达 30&#43; 的设计组件库。
-基础视觉规范 #  基础规范主要包括颜色、字体、图标、边框、圆角、边距、布局等基础设计规范。
+视觉规范建设 #  我们基于“原子理论”的分层设计模式，进行了组件的拆解和设计。在与产品团队基于业务场景进行多次分析和讨论，经过多次打磨和设计迭代后，从0到1完成了一套拥有 550&#43; 组件、 90&#43; 样式，以及覆盖页面达 30&#43; 的小程序设计组件库。
 颜色规范 #  依据业务上的特性，产品需要为众多开发商提供搭建页面的服务，在设计上既要有标准化，同时也要实现个性化。在颜色方面，我们通过过往经验的积累，提取出了8个颜色作为基准色，并基于HSB色彩模型延展出48个衍生色作为基础色板。
 有了基础色板，再由研发同学将颜色变量（color token）嵌入开发代码中，在构建不同开发商的小程序时，设计师和开发者可以快速通过选取符合品牌调性的颜色进行匹配以及做全局性的修改，横向提升团队的协作效率。
-/* 颜色变量的定义，已全局引入，无需再次编写 */ $sw-type-blue: #2979ff; $sw-type-cyan: #ecf5ff; $sw-type-green: #a0cfff; $sw-type-indigo: #2b85e4; /* 在编写css的地方使用这些变量 */ ."
+/* 颜色变量的定义，已全局引入，无需再次编写 */ $sw-type-blue: #2979ff; $sw-type-cyan: #ecf5ff; $sw-type-green: #a0cfff; $sw-type-indigo: #2b85e4; /* 在编写css的地方使用这些变量 */ .button { color: $sw-type-indigo; ."
 />
 <meta
   name="keywords"
@@ -61,12 +60,12 @@
 
 <meta name="twitter:card" content="summary"/>
 <meta name="twitter:title" content="构建设计规范体系 "/>
-<meta name="twitter:description" content="在数字化产品团队里担任设计组长一职时所主导的项目，策划目的是为了提高团队设计协作效率以及提高团队设计影响力。"/>
+<meta name="twitter:description" content="本项目是我在产品团队里担任设计组长一职时所策划的项目，目的是为了提高团队设计协作效率以及提高团队影响力，其中包括规范设计、用户体验提升以及团队协作管理等方面的内容。"/>
 
 
 
 <meta property="og:title" content="构建设计规范体系 " />
-<meta property="og:description" content="在数字化产品团队里担任设计组长一职时所主导的项目，策划目的是为了提高团队设计协作效率以及提高团队设计影响力。" />
+<meta property="og:description" content="本项目是我在产品团队里担任设计组长一职时所策划的项目，目的是为了提高团队设计协作效率以及提高团队影响力，其中包括规范设计、用户体验提升以及团队协作管理等方面的内容。" />
 <meta property="og:type" content="article" />
 <meta property="og:url" content="/posts/design-systems/" /><meta property="article:section" content="posts" />
 <meta property="article:published_time" content="2020-10-09T00:00:00+00:00" />
@@ -182,7 +181,7 @@
     
       <figure class="post-cover">
   
-    <img src="/img/Design%20System.png" alt="构建设计规范体系 "/>
+    <img src="https://charlie-1258828360.cos.ap-guangzhou.myqcloud.com/DesignSystem_cover.png" alt="构建设计规范体系 "/>
   
 
   
@@ -239,13 +238,8 @@
   视觉规范建设
   <a href="#%e8%a7%86%e8%a7%89%e8%a7%84%e8%8c%83%e5%bb%ba%e8%ae%be" class="h-anchor" aria-hidden="true">#</a>
 </h3>
-<p>我们基于“原子理论”的分层设计模式，进行了组件的拆解和设计。在与产品团队基于业务场景进行多次分析和讨论，经过多次打磨和设计迭代后，从0到1完成了一套拥有 <strong>550+</strong> 组件、 <strong>90+</strong> 样式，以及覆盖页面达 <strong>30+</strong> 的设计组件库。</p>
+<p>我们基于“原子理论”的分层设计模式，进行了组件的拆解和设计。在与产品团队基于业务场景进行多次分析和讨论，经过多次打磨和设计迭代后，从0到1完成了一套拥有 <strong>550+</strong> 组件、 <strong>90+</strong> 样式，以及覆盖页面达 <strong>30+</strong> 的<strong>小程序</strong>设计组件库。</p>
 <p><img src="https://charlie-1258828360.cos.ap-guangzhou.myqcloud.com/A5.jpg" alt=""></p>
-<h3 id="基础视觉规范">
-  基础视觉规范
-  <a href="#%e5%9f%ba%e7%a1%80%e8%a7%86%e8%a7%89%e8%a7%84%e8%8c%83" class="h-anchor" aria-hidden="true">#</a>
-</h3>
-<p>基础规范主要包括颜色、字体、图标、边框、圆角、边距、布局等基础设计规范。</p>
 <h4 id="颜色规范">
   颜色规范
   <a href="#%e9%a2%9c%e8%89%b2%e8%a7%84%e8%8c%83" class="h-anchor" aria-hidden="true">#</a>
@@ -271,6 +265,12 @@
 </h4>
 <p>在图标绘制上，规范中明确出安全区、出血区、描边粗细等制图标准，确保每个图标的绘制都遵循统一的绘制模板。</p>
 <p><img src="https://charlie-1258828360.cos.ap-guangzhou.myqcloud.com/A6.jpg" alt=""></p>
+<h3 id="后台组件迭代">
+  后台组件迭代
+  <a href="#%e5%90%8e%e5%8f%b0%e7%bb%84%e4%bb%b6%e8%bf%ad%e4%bb%a3" class="h-anchor" aria-hidden="true">#</a>
+</h3>
+<p>后台系统是基于<strong>Ant Design</strong>的开源组件进行开发完成，我们所采取的方式是在原有组件的基础上做视觉升级，减少开发的投入同时缩短设计周期。</p>
+<p><img src="https://charlie-1258828360.cos.ap-guangzhou.myqcloud.com/A6-1.jpg" alt="A6-1"></p>
 <h3 id="组件开发">
   组件开发
   <a href="#%e7%bb%84%e4%bb%b6%e5%bc%80%e5%8f%91" class="h-anchor" aria-hidden="true">#</a>
@@ -288,11 +288,9 @@
 <p>视觉风格的定义除了符合产品本身的特点，同时也是传递团队对设计理念的追求，我们希望是简洁高效的，让使用者快速便捷的关注内容，实现效率提升。</p>
 <p><img src="https://charlie-1258828360.cos.ap-guangzhou.myqcloud.com/A10.jpg" alt=""></p>
 <p><strong>Landing Page</strong> 主要分三屏展示，分别展示<strong>信息概览</strong>、<strong>设计&amp;开发指南</strong>以及<strong>资源下载</strong>。</p>
-<p><img src="https://charlie-1258828360.cos.ap-guangzhou.myqcloud.com/A11.jpg" alt=""></p>
-<p><img src="https://charlie-1258828360.cos.ap-guangzhou.myqcloud.com/A12.jpg" alt="A12"></p>
-<p>为方便维护，设计指南和交互模式库的内容，均由设计师以<strong>markdown</strong>的形式进行编辑更新，减少后台发布的流程。</p>
+<p><img src="https://charlie-1258828360.cos.ap-guangzhou.myqcloud.com/A11.jpg" alt=""><img src="https://charlie-1258828360.cos.ap-guangzhou.myqcloud.com/A12.jpg" alt="A12"><img src="https://charlie-1258828360.cos.ap-guangzhou.myqcloud.com/A14.jpg" alt="A13"></p>
+<p>为方便维护，设计指南和交互模式库的内容，均由设计师以<strong>Markdown</strong>的形式进行编辑更新，减少后台发布的流程。</p>
 <p><img src="https://charlie-1258828360.cos.ap-guangzhou.myqcloud.com/A13.jpg" alt="A12-1"></p>
-<p><img src="https://charlie-1258828360.cos.ap-guangzhou.myqcloud.com/A14.jpg" alt="A13"></p>
 <h3 id="达成共识">
   达成共识
   <a href="#%e8%be%be%e6%88%90%e5%85%b1%e8%af%86" class="h-anchor" aria-hidden="true">#</a>
@@ -300,6 +298,10 @@
 <p>另外，我在团队内部初拟了一份<a href="https://drive.google.com/file/d/1D6h580MK76l6BZ9YSss7im-eT91sh69S/view?usp=sharing">《产品设计协作规范》</a>文档，用于设计文件的有效管理，这在多人协作的团队中能够起到很大的提效作用，同时能够帮助新人快速了解团队基本工作流程。</p>
 <p>从设计文档的命名方式，到文档结构，再到最终的设计交付流程，都纳入了协作规则。目的是让大家形成良好的规范意识，文档也同步到产品、研发、测试等跨部门协作团队，减少信息不对称所造成的沟通阻碍，从而提高整体的协作效率。</p>
 <p><img src="https://charlie-1258828360.cos.ap-guangzhou.myqcloud.com/A15.jpg" alt="A15"></p>
+<h3 id="交互模式库">
+  交互模式库
+  <a href="#%e4%ba%a4%e4%ba%92%e6%a8%a1%e5%bc%8f%e5%ba%93" class="h-anchor" aria-hidden="true">#</a>
+</h3>
 <h3 id="正向循环">
   正向循环
   <a href="#%e6%ad%a3%e5%90%91%e5%be%aa%e7%8e%af" class="h-anchor" aria-hidden="true">#</a>

@@ -168,7 +168,7 @@ a.read-more,a.read-more:active{
         margin:auto;
         padding: 20px;
         width:100%;
-        max-width: 1080px;
+        max-width: 1280px;
         position: fixed;
         background-color:var(--background);
         /*
@@ -654,7 +654,7 @@ h1:hover a,h2:hover a,h3:hover a,h4:hover a{opacity:1;transition-delay:0s;}
 .post
 {
     margin:auto;
-    max-width:1080px;
+    max-width:1280px;
     width: 100%;
     padding:20px;
     text-align:left;
@@ -665,7 +665,7 @@ h1:hover a,h2:hover a,h3:hover a,h4:hover a{opacity:1;transition-delay:0s;}
 
 .list{
     margin:auto;
-    max-width:1080px;
+    max-width:1280px;
     width: 100%;
     padding:20px;
     text-align:left;
@@ -911,7 +911,7 @@ color: #999A9A;
 .post-cover
 {
     margin:20px,5px; 
-    max-width:1080px;
+    max-width:1280px;
     width: 100%;
     flex-wrap: wrap;
     justify-content: flex-start;
@@ -1058,7 +1058,7 @@ position: relative;
 margin:auto; 
 padding-top: 20px;
 max-width:100%;
-width:1080px;
+width:1280px;
 font-family:Gilroy,-apple-system,BlinkMacSystemFont,Roboto,Segoe UI,Helvetica,Arial,sans-serif;
 font-weight: 500;
 }
@@ -1427,7 +1427,7 @@ padding-right:.8em
 
 
 .home {
-    max-width: 1200px;
+    max-width: 1280px;
     width: 100%;
     background-image: url('https://charlie-1258828360.cos.ap-guangzhou.myqcloud.com/background.png');
     background-position: 400px 20px;

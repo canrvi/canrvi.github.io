@@ -479,6 +479,7 @@ img.center,img.right{
 figure{
     display:table;
     margin:25px 0;
+    margin-bottom: auto;
     max-width:120px;
 }
 figure img {

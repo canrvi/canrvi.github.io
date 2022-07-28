@@ -987,6 +987,7 @@ color: #999A9A;
     align-items:center;
     display:flex;
     justify-content:center;
+
 }
 .pagination__buttons a{
     font-weight:700;
@@ -1001,7 +1002,7 @@ color: #999A9A;
     appearance:none;
     background:var(--background-secondary);
     background:var(--border-color);
-    border-radius:8px;
+    border-radius:4px;
     cursor:pointer;
     display:inline-flex;
     font-size:16px;

@@ -419,12 +419,11 @@ h2{
 }
 h3{
     font-size:24px;
-    padding-bottom: 20px;
+    padding-top: 32px;
     font-weight: 700;
 }
 h4{
     font-size:18px;
-    padding-bottom: 16px;
     margin: 20px 0px 0px;
     font-weight: 700;
     font-family:Gilroy,-apple-system,BlinkMacSystemFont,Roboto,Segoe UI,Helvetica,Arial;
@@ -435,7 +434,6 @@ h5{
     color: #999A9A;
     margin: 0px;
     padding-top: 16px;
-    padding-bottom: 16px;
     font-family:Gilroy,-apple-system,BlinkMacSystemFont,Roboto,Segoe UI,Helvetica,Arial;
 }
 
@@ -591,7 +589,12 @@ th {
     background:var(--background-secondary);
 }
 
-.post ul,ol{
+.post ol{
+    margin: auto;
+    padding-left: 16px;
+    padding-top: 16px;
+}
+.post ul{
     margin: auto;
     padding-left: 16px;
 }
@@ -620,6 +623,11 @@ ol ol{
     font-family:Gilroy,-apple-system,BlinkMacSystemFont,Roboto,Segoe UI,Helvetica,Arial,sans-serif;
     
 }
+.content p{
+    margin: auto;
+    padding-top: 16px;
+}
+
 @media (max-width:683px){
 
 .content{
@@ -898,10 +906,7 @@ color: #999A9A;
 {
     color: var(--color);
 }
-.content p{
-    margin: auto;
-    padding-bottom: 28px;
-}
+
 .post-content{
     margin-top:0px;
     font-size: 15px;
@@ -1434,9 +1439,11 @@ padding-right:.8em
     max-width: 1280px;
     width: 100%;
     background-image: url('https://charlie-1258828360.cos.ap-guangzhou.myqcloud.com/background.png');
-    background-position: 450px 20px;
+    background-position: -40px 30px;
     background-repeat: no-repeat;
     background-size:800px;
+    padding-left: 20px;
+    padding-right: 20px;
 }
 
 .home-title{
@@ -1454,7 +1461,7 @@ padding-right:.8em
     padding-top: 20px;
     padding-bottom: 60px;
     margin: 130px;
-   
+    margin-left: 0px;
     width: 100%;
     max-width: 790px;
     
@@ -1462,9 +1469,9 @@ padding-right:.8em
 
 .home-content{
     width: 100%;
-    margin-left: 130px;
-    padding: 0px; 
-    max-width: 650px;
+    max-width: 1280px;
+    margin-left: 0px;
+    padding-bottom: 60px; 
 }
 
 .home-content p{
@@ -1478,6 +1485,33 @@ padding-right:.8em
 
 .home-content a{
     font-weight: 700;
+    width: 50px;
+}
+
+.home-email{
+    width: 100%;
+    display:flex;
+}
+.home-email p{
+    width: 100%;
+    font-size: 14px;
+    text-align:left;
+}
+
+.home-project{
+    width: 100%;
+   text-align:right;
+}
+
+.home-project p{
+    width: 100%;
+    font-size: 14px;
+    font-weight: 800;
+    text-align:right;
+}
+
+.home-project a:hover{
+    cursor:url('https://charlie-1258828360.cos.ap-guangzhou.myqcloud.com/cursor_hover.png'),default;
 }
 
 .profile{
@@ -1501,34 +1535,31 @@ padding-right:.8em
 .home{
     max-width: 680px;
     width: 100%;
+    padding:auto;
+    margin-top: 40px;
     background-image: url('https://uploads-ssl.webflow.com/5fa25266badbdb239c79ef86/60b186c0b5dadaad7d66fde0_webflow%20-%20shape%201.png');
-    background-position: -30px -10px;
+    background-position: -10px -10px;
     background-repeat: no-repeat;
-    background-size:900px;
-    margin: auto;
-    padding-top: 80px;
+    background-size:680px;
 }
 
 .home-title{
     width: 100%;
-    max-width: 480px;
-
+    display: block;
 }
 
 .home-title h1{
-    font-size: 48px;
-    display:flex;
-    text-align:left;
-    color:var(--color);
+    font-size: 44px;
+    padding:auto;
     margin: auto;
-    padding:32px;
+    color:var(--color);
     line-height: 1.2;
+    font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
 }
 
 
 .home-content{
     margin: auto;
-    padding:32px;
     width: 100%;
     padding-bottom: 80px;
 }
@@ -1536,7 +1567,7 @@ padding-right:.8em
 .home-content p{
     color:var(--color-secondary);
     text-align:left;
-    font-size: 15px;
+    font-size: 14px;
     font-weight: 400;
     line-height: 2;
     width: 100%;
@@ -1544,9 +1575,32 @@ padding-right:.8em
 }
 
 .home-content a{
-    display: flex;
-    font-weight: 700;
+   font-weight: 700;
 }
 
+.home-email{
+    margin: auto;
+    width: 100%;
+    display:block;
+}
+.home-email p{
+    width: 100%;
+}
+
+.home-project{
+    width: 100%;
+    display:block;
+}
+
+.home-project p{
+   text-align: left;  
+}
+
+.home-project a{
+    max-width: 200px;
+ }
+.copyright{
+    font-size: 14px;
+}
 
 }

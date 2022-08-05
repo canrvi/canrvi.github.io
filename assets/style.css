@@ -7,6 +7,8 @@
 --border-color:#dcdcdc71;
 --phoneWidth:(max-width:684px);
 --tabletWidth:(max-width:900px);
+--shadow-color:rgb(44,49,54,0.1);
+--shodow-color-secondary:var(--background);
 }
 
 body.dark-theme
@@ -733,7 +735,7 @@ margin: auto;
     
     width: 100%;
     padding-bottom:12px;
-    font-size: 15px;
+    font-size: 14px;
     font-weight: 400;
     line-height: 1.6;
     font-family:Gilroy,-apple-system,BlinkMacSystemFont,Roboto,Segoe UI,Helvetica,Arial,sans-serif;
@@ -1091,12 +1093,13 @@ font-weight: 500;
     padding:20px; 
     width:860px;
     color:#a9a9b3;
+    font-size:14px;
     font-family:Gilroy,-apple-system,BlinkMacSystemFont,Roboto,Segoe UI,Helvetica,Arial,sans-serif;
 }
 @media (max-width:1439px)
 {
 .footer__inner{
-font-size:16px;
+font-size:14px;
 font-family: "Gilroy";
 padding:20px;
 margin:auto;
@@ -1438,8 +1441,8 @@ padding-right:.8em
 .home {
     max-width: 1280px;
     width: 100%;
-    background-image: url('https://charlie-1258828360.cos.ap-guangzhou.myqcloud.com/background.png');
-    background-position: -40px 30px;
+    background-image: url('https://charlie-1258828360.cos.ap-guangzhou.myqcloud.com/backgound.png');
+    background-position: 240px 30px;
     background-repeat: no-repeat;
     background-size:800px;
     padding-left: 20px;
@@ -1500,17 +1503,25 @@ padding-right:.8em
 
 .home-project{
     width: 100%;
-   text-align:right;
+    max-width: 200px;
 }
 
-.home-project p{
-    width: 100%;
+.project_btn
+{
+    box-shadow:0px 16px 20px var(--shadow-color);
+    background-color:var(--color);
+    border-radius:80px;
+    margin: 0px;
+    padding: 20px;
+    justify-content: center;
+    text-align: right;
     font-size: 14px;
     font-weight: 800;
-    text-align:right;
+    color:var(--background);
+    text-decoration:none;
 }
 
-.home-project a:hover{
+.home-project :hover{
     cursor:url('https://charlie-1258828360.cos.ap-guangzhou.myqcloud.com/cursor_hover.png'),default;
 }
 
@@ -1535,9 +1546,9 @@ padding-right:.8em
 .home{
     max-width: 680px;
     width: 100%;
-    padding:auto;
+    padding:32px;
     margin-top: 40px;
-    background-image: url('https://uploads-ssl.webflow.com/5fa25266badbdb239c79ef86/60b186c0b5dadaad7d66fde0_webflow%20-%20shape%201.png');
+    background-image: url('https://charlie-1258828360.cos.ap-guangzhou.myqcloud.com/backgound.png');
     background-position: -10px -10px;
     background-repeat: no-repeat;
     background-size:680px;
@@ -1545,12 +1556,11 @@ padding-right:.8em
 
 .home-title{
     width: 100%;
-    display: block;
 }
 
 .home-title h1{
     font-size: 44px;
-    padding:auto;
+    padding-bottom:40px;
     margin: auto;
     color:var(--color);
     line-height: 1.2;
@@ -1581,26 +1591,30 @@ padding-right:.8em
 .home-email{
     margin: auto;
     width: 100%;
-    display:block;
+    max-width: 680px;
 }
 .home-email p{
     width: 100%;
 }
 
 .home-project{
-    width: 100%;
-    display:block;
-}
-
-.home-project p{
-   text-align: left;  
-}
-
-.home-project a{
     max-width: 200px;
- }
-.copyright{
+    width: 100%;
+    margin-top: 40px;
+    padding: 10px;
+}
+
+.project_btn{
+    
+    border-radius:80px;
     font-size: 14px;
+    font-weight: 800;
+    color:var(--background);
+    text-decoration:none;
+}
+
+.footer__inner{
+    font-size: 13px;
 }
 
 }

@@ -733,7 +733,7 @@ margin: auto;
 .list-content a{
     color:var(--color);
     text-decoration:none;
-    border-bottom:1px solid var(--color);
+    border-bottom:0,0,0,0.8px solid var(--color);
     text-overflow: ellipsis;
 }
 .list-content{
@@ -906,7 +906,7 @@ color: #999A9A;
     text-decoration:none;
     padding-bottom:0.8px;
     text-overflow: ellipsis;
-    border-bottom:0,0,0,1px solid var(--color);
+    border-bottom:1px solid var(--color);
     border-bottom-style: dotted;
 }
 .post-content strong
@@ -1254,7 +1254,8 @@ padding:20px 0
 .archive__post:not(:last-of-type)
 {
     border-bottom:1px solid #dcdcdc;
-    border-bottom:1px solid var(--border-color)}
+    border-bottom:1px solid var(--border-color);
+}
 .archive__post-title
 {
     margin:5px 0;

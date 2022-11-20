@@ -1,0 +1,317 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    
+      <title>
+        组件可视化编辑器 
+        Charlie · Do The Design Well
+      </title>
+    
+    <meta http-equiv="content-type" content="text/html; charset=utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<meta
+  name="description"
+  content="需求背景 #  营销云，一款为地产开发商提供营销服务的数字化平台，以小程序为载体，其中线上展厅则是专为企业打造的官方营销入口，用于满足购房者的线上看房体验需求。随着业务需求呈爆发式增长，产品对接的企业服务商数量日趋增多，线上展厅的定制化需求使得前端资源和设计资源越来越捉襟见肘。
+业务场景 #  企业在首次创建小程序时，或在某些特殊活动开展前，企业管理业务人员或本公司负责项目管理人员，需要对小程序产品界面进行针对性的设计并快速上线。
+需求痛点 #  但对于研发团队：企业服务商众多，内外部需求量大，任务紧，需求堆积，无法做到及时响应。对于设计团队：产品需求任务多，与需求方沟通需要消耗较多时间，沟通成本较高，导致设计方案重复修改，影响整体上线进度。
+如何解决 #  了解到以上问题之后，我们计划通过构建一款可视化编辑器，利用已经搭建好的设计规范和组件资源，来解放前端工程师以及设计师的双手，降低人力资源投入，同时满足多端平台统一开发的需求，提高页面搭建和开发效率。
+设计目标 #  基于上述问题的分析并结合实际的业务流程，在前期我们将产品使用角色定义为本公司的项目管理员，并为此产品方案制定了以下设计目标。
+产品洞察 #  通过竞品分析，我们对比了凡科网、微盟、有赞等小程序建站服务的编辑器功能，为产品设计提供参考依据和方向。经过分析对比发现，大部分编辑器都遵循【创造—调整—再创造】循序渐进式的设计模式，符合用户在使用编辑器时的心智模型以及自然习惯。因此，我们将用户在使用组件可视化编辑器时的工作流程抽象为4个步骤：输入——调整——预览——输出。
+将其归纳到产品设计上，就有了以下主要流程。
+框架布局 #  在布局设计上规划出 4 大板块，分别是控件版块、内容版块、画布版块、菜单版块。控件件版块提供搭建页面所需的组件元件，用户可进行拖拉拽的交互动作，也即为工作流程中的的“创建”。内容版块则是在编辑状态下可对组件元件进行调整的操作面板，包括连接页面数据，即为工作流程中的“调整”。画布版块即为可视化面板，展示页面组件，所见即所得，即工作流程中的“预览”。菜单面板则承载者包含最高层级的操作，包括在小程序页面上的预览和发布至小程序。
+模块化设计 #  根据过往与服务商的对接经验，企业对于定制化需求较多的集中在首页和详情页两大主要页面，我们将页面分为 “通栏” 和 “卡片” 两大类型，但本质上都是模块化处理的方式，更有利于做信息的分层和聚合处理。
+以首页为例，我们经过调研市面上具备新房服务背景的移动端产品，穷举了每种模块类型的设计形态和布局方式，并归纳为设计模版，以此满足企业的多种需求，提供更多的设计样式选择。例如：房源信息模块 设计上展示更全面的楼盘信息，突出楼盘利益点，激发购房者兴趣，提高转化效率。资讯类模块 主要采用 「图片&#43;标题」 的形式，引导用户浏览查看；多功能模块 则能够满足企业的营销设计的需要，更加灵活多变。
+有了丰富的模块化的模版，业务人员就可根据企业需要，像搭积木一样，选择所需模块进行拼装，快速完成界面搭建。
+编辑器默认状态下展示画布设置模块，点击页面设置按钮或触碰背景区域时弹出画布设置模块，选中模块时则自动收起，切换为内容版块。画布右上角为分享设置，修改的是小程序分享的全局属性。
+在内容版块中，业务人员可以针对某一模块进行单独调整，为模块添加交互数据以及对模块基础样式做进一步的修改。
+模块触点都支持配置点击跳转，因为考虑到管理后台有多处类似的交互流程，我们统计出所有可跳转类型并将其设计并开发成 弹窗组件 ，之后在管理后台中复用。
+设计成果 #  在通用能力方面，为低代码或无代码平台的搭建提供开发和设计基础，降低了产品、设计师、研发等开发人员的投入成本，同时也提升了用户界面快速搭建的能力，达到降本增效的目标。在服务质量方面，编辑器为客户提供更多定制化设计服务，做到没有技术背景的业务人员也可完成应用搭建，极大提升业务响应效率。
+对于非专业用户，即使编辑器能够带来更加灵活的页面搭建服务，但对产品结构不熟悉的普通用户也未必能快速完成。对此，我们经过设计打磨，为产品界面增加了不同类型的预制模版，业务员只要通过选择符合企业品牌调性的模版就能快速完成一套完整的产品界面搭建，降低新手用户的使用门槛。同时，设计模版的搭建为产品设计团队提供了价值输出的方向，结合业务营销需求持续的沉淀优质模版，未来可将优质的设计模版形成付费体系，实现设计赋能。"
+/>
+<meta
+  name="keywords"
+  content=""
+/>
+<meta name="robots" content="noodp" />
+<link rel="canonical" href="/projects/no-code/" />
+
+
+
+
+
+<link rel="stylesheet" href="/assets/style.css" />
+
+<link rel="stylesheet" href="/style.css" />
+
+
+<link
+  rel="apple-touch-icon-precomposed"
+  sizes="144x144"
+  href="/img/apple-touch-icon-144-precomposed.png"
+/>
+<link rel="shortcut icon" href="/img/favicon.ico" />
+
+
+<link href="/assets/fonts/Inter-Italic.woff2" rel="preload" type="font/woff2" as="font" crossorigin="">
+<link href="/assets/fonts/Inter-Regular.woff2" rel="preload" type="font/woff2" as="font" crossorigin="">
+<link href="/assets/fonts/Inter-Medium.woff2" rel="preload" type="font/woff2" as="font" crossorigin="">
+<link href="/assets/fonts/Inter-MediumItalic.woff2" rel="preload" type="font/woff2" as="font" crossorigin="">
+<link href="/assets/fonts/Inter-Bold.woff2" rel="preload" type="font/woff2" as="font" crossorigin="">
+<link href="/assets/fonts/Inter-BoldItalic.woff2" rel="preload" type="font/woff2" as="font" crossorigin="">
+
+
+<meta name="twitter:card" content="summary"/>
+<meta name="twitter:title" content="组件可视化编辑器 "/>
+<meta name="twitter:description" content="本项目是设计开发一款在线可视化组件编辑器，通过可视化用户界面和配置代替传统的编码开发，帮助客户降低小程序页面的搭建门槛，提升客制化产品的开发和上线效率。"/>
+
+
+
+<meta property="og:title" content="组件可视化编辑器 " />
+<meta property="og:description" content="本项目是设计开发一款在线可视化组件编辑器，通过可视化用户界面和配置代替传统的编码开发，帮助客户降低小程序页面的搭建门槛，提升客制化产品的开发和上线效率。" />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="/projects/no-code/" /><meta property="article:section" content="Projects" />
+<meta property="article:published_time" content="2022-04-22T00:00:00+00:00" />
+<meta property="article:modified_time" content="2022-04-22T00:00:00+00:00" /><meta property="og:site_name" content="Charlie" />
+
+
+
+
+
+
+
+  </head>
+  <body class="">
+    <div class="container">
+      <header class="header">
+  <span class="header__inner">
+    <a
+  href="/"
+  class="logo"
+  style="text-decoration: none;"
+>
+  
+    
+    <span class="logo__text"
+      >Charlie</span
+    >
+    <span class="logo__cursor"></span>
+  
+</a>
+
+    <span class="header__right">
+      
+        <nav class="menu">
+  <ul class="menu__inner menu__inner--desktop">
+    
+      
+        
+          <li><a href="/work">Work</a></li>
+        
+      
+        
+          <li><a href="/projects">Projects</a></li>
+        
+      
+        
+          <li><a href="/contact">Contact</a></li>
+        
+      
+      
+      
+  </ul>
+
+  <ul class="menu__inner menu__inner--mobile">
+    
+      
+        <li><a href="/work">Work</a></li>
+      
+    
+      
+        <li><a href="/projects">Projects</a></li>
+      
+    
+      
+        <li><a href="/contact">Contact</a></li>
+      
+    
+  </ul>
+</nav>
+
+        <span class="menu-trigger">
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
+            <path d="M0 0h24v24H0z" fill="none" />
+            <path d="M3 18h18v-2H3v2zm0-5h18v-2H3v2zm0-7v2h18V6H3z" />
+          </svg>
+        </span>
+      
+      <span class="theme-toggle">
+       <svg t="1653669115498" class="icon" viewBox="0 0 1024 1024" version="1.1" xmlns="http://www.w3.org/2000/svg" p-id="2861" width="24" height="24"><path d="M514.986667 170.666667a341.333333 341.333333 0 0 0 292.693333 512 341.333333 341.333333 0 1 1-292.693333-512z"  p-id="2862"></path></svg> 
+    </span>
+
+</header>
+
+
+      <div class="content">
+        
+  
+  
+
+  <div class="post">
+    <h1 class="post-title">组件可视化编辑器</h1>
+    <div class="post-meta">
+      
+        <span class="post-date">
+          2022-04-22
+        </span>
+
+        
+          
+        
+      
+
+      
+        <span class="post-author"
+          >— Design by Charlie</span>
+      
+
+
+      
+    </div>
+
+    
+
+    
+      <figure class="post-cover">
+  
+    <img src="https://charlie-1258828360.cos.ap-guangzhou.myqcloud.com/nocode_cover.png" alt="组件可视化编辑器 "/>
+  
+
+  
+</figure>
+    
+
+    <div class="post-content">
+      
+      <h3 id="需求背景">
+  需求背景
+  <a href="#%e9%9c%80%e6%b1%82%e8%83%8c%e6%99%af" class="h-anchor" aria-hidden="true">#</a>
+</h3>
+<p>营销云，一款为地产开发商提供营销服务的数字化平台，以小程序为载体，其中<strong>线上展厅</strong>则是专为企业打造的官方营销入口，用于满足购房者的线上看房体验需求。随着业务需求呈爆发式增长，产品对接的企业服务商数量日趋增多，线上展厅的定制化需求使得前端资源和设计资源越来越捉襟见肘。</p>
+<p><img src="https://charlie-1258828360.cos.ap-guangzhou.myqcloud.com/no-code-03.png" alt=""></p>
+<h3 id="业务场景">
+  业务场景
+  <a href="#%e4%b8%9a%e5%8a%a1%e5%9c%ba%e6%99%af" class="h-anchor" aria-hidden="true">#</a>
+</h3>
+<p>企业在首次创建小程序时，或在某些特殊活动开展前，企业管理业务人员或本公司负责项目管理人员，需要对小程序产品界面进行针对性的设计并快速上线。</p>
+<h3 id="需求痛点">
+  需求痛点
+  <a href="#%e9%9c%80%e6%b1%82%e7%97%9b%e7%82%b9" class="h-anchor" aria-hidden="true">#</a>
+</h3>
+<p>但对于<strong>研发团队</strong>：企业服务商众多，内外部需求量大，任务紧，需求堆积，无法做到及时响应。对于<strong>设计团队</strong>：产品需求任务多，与需求方沟通需要消耗较多时间，沟通成本较高，导致设计方案重复修改，影响整体上线进度。</p>
+<h3 id="如何解决">
+  如何解决
+  <a href="#%e5%a6%82%e4%bd%95%e8%a7%a3%e5%86%b3" class="h-anchor" aria-hidden="true">#</a>
+</h3>
+<p>了解到以上问题之后，我们计划通过构建一款可视化编辑器，利用已经搭建好的设计规范和组件资源，来解放前端工程师以及设计师的双手，降低人力资源投入，同时满足多端平台统一开发的需求，提高页面搭建和开发效率。</p>
+<h3 id="设计目标">
+  设计目标
+  <a href="#%e8%ae%be%e8%ae%a1%e7%9b%ae%e6%a0%87" class="h-anchor" aria-hidden="true">#</a>
+</h3>
+<p>基于上述问题的分析并结合实际的业务流程，在前期我们将产品使用角色定义为本公司的项目管理员，并为此产品方案制定了以下设计目标。</p>
+<p><img src="https://charlie-1258828360.cos.ap-guangzhou.myqcloud.com/no-code-02.png" alt=""></p>
+<h3 id="产品洞察">
+  产品洞察
+  <a href="#%e4%ba%a7%e5%93%81%e6%b4%9e%e5%af%9f" class="h-anchor" aria-hidden="true">#</a>
+</h3>
+<p>通过竞品分析，我们对比了凡科网、微盟、有赞等小程序建站服务的编辑器功能，为产品设计提供参考依据和方向。经过分析对比发现，大部分编辑器都遵循【创造—调整—再创造】循序渐进式的设计模式，符合用户在使用编辑器时的心智模型以及自然习惯。因此，我们将用户在使用组件可视化编辑器时的工作流程抽象为4个步骤：<strong>输入——调整——预览——输出</strong>。</p>
+<p><img src="https://charlie-1258828360.cos.ap-guangzhou.myqcloud.com/no-code-04.png" alt=""></p>
+<p>将其归纳到产品设计上，就有了以下主要流程。</p>
+<p><img src="https://charlie-1258828360.cos.ap-guangzhou.myqcloud.com/no-code-04-1.png" alt="no-code-04-1"><img src="https://charlie-1258828360.cos.ap-guangzhou.myqcloud.com/no-code-04-2.png" alt="no-code-04-1"><img src="https://charlie-1258828360.cos.ap-guangzhou.myqcloud.com/no-code-04-3.png" alt="no-code-04-1"><img src="https://charlie-1258828360.cos.ap-guangzhou.myqcloud.com/no-code-04-4.png" alt="no-code-04-1"></p>
+<h3 id="框架布局">
+  框架布局
+  <a href="#%e6%a1%86%e6%9e%b6%e5%b8%83%e5%b1%80" class="h-anchor" aria-hidden="true">#</a>
+</h3>
+<p>在布局设计上规划出 <strong>4</strong> 大板块，分别是<strong>控件版块</strong>、<strong>内容版块</strong>、<strong>画布版块</strong>、<strong>菜单版块</strong>。控件件版块提供搭建页面所需的组件元件，用户可进行拖拉拽的交互动作，也即为工作流程中的的“创建”。内容版块则是在编辑状态下可对组件元件进行调整的操作面板，包括连接页面数据，即为工作流程中的“调整”。画布版块即为可视化面板，展示页面组件，所见即所得，即工作流程中的“预览”。菜单面板则承载者包含最高层级的操作，包括在小程序页面上的预览和发布至小程序。</p>
+<p><img src="https://charlie-1258828360.cos.ap-guangzhou.myqcloud.com/no-code-05.png" alt=""></p>
+<h3 id="模块化设计">
+  模块化设计
+  <a href="#%e6%a8%a1%e5%9d%97%e5%8c%96%e8%ae%be%e8%ae%a1" class="h-anchor" aria-hidden="true">#</a>
+</h3>
+<p>根据过往与服务商的对接经验，企业对于定制化需求较多的集中在首页和详情页两大主要页面，我们将页面分为 <strong>“通栏”</strong> 和 <strong>“卡片”</strong> 两大类型，但本质上都是模块化处理的方式，更有利于做信息的分层和聚合处理。</p>
+<p><img src="https://charlie-1258828360.cos.ap-guangzhou.myqcloud.com/no-code-06.png" alt=""></p>
+<p>以首页为例，我们经过调研市面上具备新房服务背景的移动端产品，穷举了每种模块类型的设计形态和布局方式，并归纳为设计模版，以此满足企业的多种需求，提供更多的设计样式选择。例如：<strong>房源信息模块</strong> 设计上展示更全面的楼盘信息，突出楼盘利益点，激发购房者兴趣，提高转化效率。<strong>资讯类模块</strong> 主要采用 「图片+标题」 的形式，引导用户浏览查看；<strong>多功能模块</strong> 则能够满足企业的营销设计的需要，更加灵活多变。</p>
+<p><img src="https://charlie-1258828360.cos.ap-guangzhou.myqcloud.com/no-code-07.png" alt=""></p>
+<p>有了丰富的模块化的模版，业务人员就可根据企业需要，像搭积木一样，选择所需模块进行拼装，快速完成界面搭建。</p>
+<p><img src="https://charlie-1258828360.cos.ap-guangzhou.myqcloud.com/no-code-08.png" alt="no-code-07"></p>
+<p>编辑器默认状态下展示画布设置模块，点击页面设置按钮或触碰背景区域时弹出画布设置模块，选中模块时则自动收起，切换为内容版块。画布右上角为分享设置，修改的是小程序分享的全局属性。</p>
+<p><img src="https://charlie-1258828360.cos.ap-guangzhou.myqcloud.com/Filmage%202022-06-20_225843.gif" alt="Filmage 2022-06-20_225843"></p>
+<p>在内容版块中，业务人员可以针对某一模块进行单独调整，为模块添加交互数据以及对模块基础样式做进一步的修改。</p>
+<p><img src="https://charlie-1258828360.cos.ap-guangzhou.myqcloud.com/no-code-09.png" alt="no-code-05"></p>
+<p>模块触点都支持配置点击跳转，因为考虑到管理后台有多处类似的交互流程，我们统计出所有可跳转类型并将其设计并开发成 <strong>弹窗组件</strong> ，之后在管理后台中复用。</p>
+<p><img src="https://charlie-1258828360.cos.ap-guangzhou.myqcloud.com/no-code-10.png" alt="no-code-06"></p>
+<h3 id="设计成果">
+  设计成果
+  <a href="#%e8%ae%be%e8%ae%a1%e6%88%90%e6%9e%9c" class="h-anchor" aria-hidden="true">#</a>
+</h3>
+<p>在<strong>通用能力</strong>方面，为低代码或无代码平台的搭建提供开发和设计基础，降低了产品、设计师、研发等开发人员的投入成本，同时也提升了用户界面快速搭建的能力，达到降本增效的目标。在<strong>服务质量</strong>方面，编辑器为客户提供更多定制化设计服务，做到没有技术背景的业务人员也可完成应用搭建，极大提升业务响应效率。</p>
+<p><img src="https://charlie-1258828360.cos.ap-guangzhou.myqcloud.com/no-code-01.png" alt="no-code-00"></p>
+<p>对于非专业用户，即使编辑器能够带来更加灵活的页面搭建服务，但对产品结构不熟悉的普通用户也未必能快速完成。对此，我们经过设计打磨，为产品界面增加了不同类型的预制模版，业务员只要通过选择符合企业品牌调性的模版就能快速完成一套完整的产品界面搭建，降低新手用户的使用门槛。同时，设计模版的搭建为产品设计团队提供了价值输出的方向，结合业务营销需求持续的沉淀优质模版，未来可将优质的设计模版形成付费体系，实现设计赋能。</p>
+<p><img src="https://charlie-1258828360.cos.ap-guangzhou.myqcloud.com/no-code-11.png" alt="no-code-08"></p>
+
+    </div>
+    
+      
+        <div class="pagination">
+          <div class="pagination__title">
+            <span class="pagination__title-h">no more</span>
+            <hr/>
+          </div>
+          <div class="pagination__buttons">
+            
+            
+              <span class="button next">
+                <a href="/projects/design-systems/">
+                  <span class="button__text">构建设计规范体系 </span>
+                  <span class="button__icon">→</span>
+                </a>
+              </span>
+            
+          </div>
+        </div>
+      
+    
+
+    
+      
+        
+
+      
+    
+  </div>
+
+      </div>
+
+      
+        <footer class="footer">
+  <div class="footer__inner">
+    
+      
+      <div class="copyright">
+        <span>All work © 2022 
+        <a href="https://twitter.com/charlie_0815" target="_blank" rel="noopener">Charlie </a>unless otherwise noted.</span>
+        
+      </div>
+    
+  </div>
+</footer>
+
+<script src="/assets/main.js"></script>
+<script src="/assets/prism.js"></script>
+
+
+      
+    </div>
+
+    
+  </body>
+</html>

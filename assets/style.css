@@ -998,9 +998,9 @@ color: #999A9A;
 .pagination__buttons{
     align-items:center;
     display:flex;
-    justify-content:center;
-
 }
+
+
 .pagination__buttons a{
     font-weight:700;
     text-decoration:none;
@@ -1008,7 +1008,6 @@ color: #999A9A;
 
 /*翻页按钮*/
 .button{
-    align-items:center;
     -webkit-appearance:none;
     -moz-appearance:none;
     appearance:none;
@@ -1019,7 +1018,7 @@ color: #999A9A;
     display:inline-flex;
     font-size:16px;
     font-weight:500;
-    justify-content:center;
+    justify-content:right;
     max-width:40%;
     padding:0;
     position:relative;
@@ -1063,6 +1062,9 @@ color: #999A9A;
 {
     background:var(--background-secondary);
     background:var(--border-color);
+    padding: 30px;
+    align-items:right;
+
 } 
 
 /*页脚*/

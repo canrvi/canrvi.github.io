@@ -1062,7 +1062,6 @@ color: #999A9A;
 {
     background:var(--background-secondary);
     background:var(--border-color);
-    padding: 30px;
     align-items:right;
 
 } 

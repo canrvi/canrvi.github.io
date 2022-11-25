@@ -711,7 +711,6 @@ h1:hover a,h2:hover a,h3:hover a,h4:hover a{opacity:1;transition-delay:0s;}
 .on-list{
 display: flex;
 margin: auto;
-
 }
 
 .list-cover{
@@ -720,7 +719,6 @@ margin: auto;
     max-width:420px;
     width:100%;
     flex-wrap: wrap;
-    
 }
 
 .list-meta{
@@ -934,7 +932,6 @@ color: #999A9A;
 
 .post-cover img{
     border-radius:1px;
-    box-shadow:0 0 0 rgba(0,0,0,0);
     margin:0 auto;
     width:100%;
 }
@@ -1011,22 +1008,23 @@ color: #999A9A;
     -webkit-appearance:none;
     -moz-appearance:none;
     appearance:none;
-    background:var(--background-secondary);
-    background:var(--border-color);
-    border-radius:4px;
+    border-radius:80px;
     cursor:pointer;
     display:inline-flex;
-    font-size:16px;
+    font-size:14px;
     font-weight:500;
     justify-content:right;
     max-width:40%;
-    padding:0;
+    padding: 20px,20px;
     position:relative;
     font-family:Gilroy,-apple-system,BlinkMacSystemFont,Roboto,Segoe UI,Helvetica,Arial,sans-serif;
+    background:var(--color);
+    box-shadow: 0px 16px 20px var(--shadow-color);
 }
 .button+.button{
     margin-left:16px;
 }
+
 
 .button a{
     display:flex;
@@ -1035,7 +1033,6 @@ color: #999A9A;
 }
 .button__text
 {
-    color:var(--background-secondary);
     padding: 8px,16px;
     text-overflow: ellipsis;
     white-space: nowrap;
@@ -1045,7 +1042,8 @@ color: #999A9A;
     overflow:hidden;
     text-overflow:ellipsis;
     white-space:nowrap;
-    padding: 8px 16px;
+    padding: 4px;
+    color:var(--background);
 }
 
 .button.next 
@@ -1054,16 +1052,13 @@ color: #999A9A;
 }
 .button__icon
 {
-    margin-left:8px;
-    margin-right:8px;
-    color:var(--background-secondary);
+    margin-left:4px;
+    margin-right:4px;
+    color:var(--background);
 }
 .button.previous 
 {
-    background:var(--background-secondary);
-    background:var(--border-color);
     align-items:right;
-
 } 
 
 /*页脚*/

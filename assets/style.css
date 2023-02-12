@@ -621,7 +621,7 @@ ol ol{
     flex-direction:column;
     justify-content:center;
     font-family:Gilroy,-apple-system,BlinkMacSystemFont,Roboto,Segoe UI,Helvetica,Arial,sans-serif;
-    flex: 1;
+    flex: 2;
 }
 .content
 {
@@ -1444,7 +1444,7 @@ padding-right:.8em
     max-width: 1280px;
     width: 100%;
     background-image: url('https://charlie-1258828360.cos.ap-guangzhou.myqcloud.com/backgound.png');
-    background-position: 240px 30px;
+    background-position: 240px 20px;
     background-repeat: no-repeat;
     background-size:800px;
     padding-left: 20px;
@@ -1462,14 +1462,13 @@ padding-right:.8em
     font-variant-east-asian: traditional;
     display:flex;
     text-align:left;
+    line-height: 80px;
     color:var(--color);
     padding-top: 20px;
     padding-bottom: 60px;
     margin: 130px;
     margin-left: 0px;
-    width: 100%;
-    max-width: 790px;
-    
+    width: 100%;    
 }
 
 .home-content{
@@ -1481,6 +1480,8 @@ padding-right:.8em
 
 .home-content p{
     color:var(--color-secondary);
+    max-width: 1280px;
+    
     text-align:left;
     font-size: 14px;
     font-weight: 400;
@@ -1501,15 +1502,16 @@ padding-right:.8em
     font-size: 14px;
     margin-left: 0px;
     width: 100%;
-    max-width: 580px;
+    max-width: 500px;
 }
 /*home btn----------------------------------------*/
 .home-project{
     align-items: flex-end;
-    max-width: 400px;
+    max-width: 1280px;
 }
 .project_btn
 {
+    max-width: 790px;
     width: 120px;
     padding: 20px;
     font-size: 14px;
@@ -1550,7 +1552,7 @@ padding-right:.8em
     background-image: url('https://charlie-1258828360.cos.ap-guangzhou.myqcloud.com/backgound.png');
     background-position: -10px -10px;
     background-repeat: no-repeat;
-    background-size:680px;
+    background-size:500px;
 }
 
 .home-title{
